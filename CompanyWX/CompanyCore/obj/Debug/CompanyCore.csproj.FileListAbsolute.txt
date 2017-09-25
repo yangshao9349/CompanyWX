@@ -1,0 +1,28 @@
+E:\淘宝\CompanyWX\CompanyCore\bin\Debug\CompanyCore.dll
+E:\淘宝\CompanyWX\CompanyCore\bin\Debug\CompanyCore.pdb
+E:\淘宝\CompanyWX\CompanyCore\obj\Debug\CompanyCore.dll
+E:\淘宝\CompanyWX\CompanyCore\obj\Debug\CompanyCore.pdb
+E:\淘宝\CompanyWX\CompanyCore\obj\Debug\CompanyCore.csprojResolveAssemblyReference.cache
+E:\淘宝\c#\bs\CompanyWX\CompanyCore\bin\Debug\CompanyCore.dll
+E:\淘宝\c#\bs\CompanyWX\CompanyCore\bin\Debug\CompanyCore.pdb
+E:\淘宝\c#\bs\CompanyWX\CompanyCore\obj\Debug\CompanyCore.csprojResolveAssemblyReference.cache
+E:\淘宝\c#\bs\CompanyWX\CompanyCore\obj\Debug\CompanyCore.dll
+E:\淘宝\c#\bs\CompanyWX\CompanyCore\obj\Debug\CompanyCore.pdb
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyCore\bin\Debug\CompanyCore.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyCore\bin\Debug\CompanyCore.pdb
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyCore\obj\Debug\CompanyCore.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyCore\obj\Debug\CompanyCore.pdb
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyCore\bin\Debug\CompanyCore.dll
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyCore\bin\Debug\CompanyCore.pdb
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyCore\obj\Debug\CompanyCore.dll
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyCore\obj\Debug\CompanyCore.pdb
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyCore\bin\Debug\CompanyCore.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyCore\bin\Debug\CompanyCore.pdb
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyCore\obj\Debug\CompanyCore.csprojResolveAssemblyReference.cache
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyCore\obj\Debug\CompanyCore.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyCore\obj\Debug\CompanyCore.pdb
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyCore\bin\Debug\CompanyCore.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyCore\bin\Debug\CompanyCore.pdb
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyCore\obj\Debug\CompanyCore.csprojResolveAssemblyReference.cache
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyCore\obj\Debug\CompanyCore.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyCore\obj\Debug\CompanyCore.pdb

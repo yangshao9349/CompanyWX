@@ -1,0 +1,110 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>企业号后台</title>
+    <link href="/Content/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/Content/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <!-- Toastr style -->
+    <link href="/Content/css/plugins/toastr/toastr.min.css" rel="stylesheet">
+    <!-- Gritter -->
+    <link href="/Content/js/plugins/gritter/jquery.gritter.css" rel="stylesheet">
+    <link href="/Content/css/animate.css" rel="stylesheet">
+    <link href="/Content/css/style1.css" rel="stylesheet">
+    <script src="/Content/js/jquery-2.1.1.js"></script>
+</head>
+<div id="wrapper">
+    <nav class="navbar-default navbar-static-side" role="navigation" id="left-menu">
+        <ul class="nav metismenu" id="side-menu">
+            <li class="nav-header left-menu-site-title"><h1><a href="/Home/Index">微信企业号</a></h1></li>
+            <li><a href="/Material/ImageText"><i class="fa fa-th-large"></i> <span class="nav-label">素材库</span></a></li>
+            <li>
+
+                <a href="#"><i class="fa fa-edit"></i> <span class="nav-label">智能回复</span><span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level collapse in">
+                    <li><a href="/Reply/Index?type=@CompanyModel.Types.ImageText">图文回复</a></li>
+                    <li><a href="/Reply/Index?type=@CompanyModel.Types.Text">文本回复</a></li>
+                   
+                </ul>
+
+            </li>
+        </ul>
+    </nav>
+    <div id="page-wrapper" class="gray-bg dashbard-1">
+        <div class="row border-bottom">
+            <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+                <div class="navbar-header">
+                    <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#" id="toggle-menu" data-open="1"><i class="fa fa-bars"></i> </a>
+                </div>
+                <ul class="nav navbar-top-links navbar-right">
+                    <li>
+                        <div class="dropdown">
+                            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                                @*<li role="presentation"><a role="menuitem" tabindex="-1" href="{:U('Home/Login')}">安全退出</a></li>*@
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="/Home/Login">安全退出</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="/Home/UpdatePassWord">修改密码</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        @RenderBody()
+    </div>
+</div>
+<!-- Mainly scripts -->
+<script src="/Content/js/bootstrap.min.js"></script>
+<script src="/Content/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+<!-- Peity -->
+<script src="/Content/js/plugins/peity/jquery.peity.min.js"></script>
+<script src="/Content/js/demo/peity-demo.js"></script>
+<!-- Custom and plugin javascript -->
+<script>
+    var configMenuActive = function () {
+        var list = ['Home/Admin/Admin', 'Home/Type/', 'Home/Admin/Orders', 'Home/Admin/FuWuShang', 'Home/Admin/CaiFu', 'Home/Admin/GongDi', 'Home/Admin/JiaMeng'];
+        var url = document.URL;
+        var count = list.length;
+        var index = -1;
+        for (var i = 0; i < count; i++) {
+            var item = list[i];
+            if (url.indexOf(item) >= 0) {
+                index = i;
+                break;
+            }
+        }
+        if (index >= 0) {
+            $("#side-menu>li").eq(index).addClass("active");
+            $("#side-menu>li").eq(index).find("ul").addClass("in");
+        }
+    }
+    var toggleMenu = function () {
+
+        $('#toggle-menu').on('click', function () {
+            var open = $(this).data('open');
+            if (open == '1') {
+                $(this).data('open', 0);
+                $('#left-menu').css('display', 'none');
+                $('#page-wrapper').css('margin-left', 0);
+            } else {
+                $(this).data('open', 1);
+                $('#left-menu').css('display', 'block');
+                $('#page-wrapper').css('margin-left', '220px');
+            }
+
+        });
+    }
+    $(function () {
+        configMenuActive();
+        toggleMenu();
+    });
+</script>
+</body>
+</html>

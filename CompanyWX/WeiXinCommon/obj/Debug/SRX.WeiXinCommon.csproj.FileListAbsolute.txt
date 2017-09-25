@@ -1,0 +1,67 @@
+E:\淘宝\CompanyWX\WeiXinCommon\bin\Debug\WeiXinCommon.dll
+E:\淘宝\CompanyWX\WeiXinCommon\bin\Debug\WeiXinCommon.pdb
+E:\淘宝\CompanyWX\WeiXinCommon\bin\Debug\Newtonsoft.Json.dll
+E:\淘宝\CompanyWX\WeiXinCommon\bin\Debug\Newtonsoft.Json.xml
+E:\淘宝\CompanyWX\WeiXinCommon\obj\Debug\WeiXinCommon.dll
+E:\淘宝\CompanyWX\WeiXinCommon\obj\Debug\WeiXinCommon.pdb
+E:\淘宝\CompanyWX\WeiXinCommon\obj\Debug\SRX.WeiXinCommon.csprojResolveAssemblyReference.cache
+E:\淘宝\c#\bs\CompanyWX\WeiXinCommon\bin\Debug\WeiXinCommon.dll
+E:\淘宝\c#\bs\CompanyWX\WeiXinCommon\bin\Debug\WeiXinCommon.pdb
+E:\淘宝\c#\bs\CompanyWX\WeiXinCommon\bin\Debug\Newtonsoft.Json.dll
+E:\淘宝\c#\bs\CompanyWX\WeiXinCommon\bin\Debug\Newtonsoft.Json.xml
+E:\淘宝\c#\bs\CompanyWX\WeiXinCommon\obj\Debug\SRX.WeiXinCommon.csprojResolveAssemblyReference.cache
+E:\淘宝\c#\bs\CompanyWX\WeiXinCommon\obj\Debug\WeiXinCommon.dll
+E:\淘宝\c#\bs\CompanyWX\WeiXinCommon\obj\Debug\WeiXinCommon.pdb
+E:\淘宝\c#\bs\CompanyWX\WeiXinCommon\bin\Debug\CompanyModel.dll
+E:\淘宝\c#\bs\CompanyWX\WeiXinCommon\bin\Debug\DBHelper.dll
+E:\淘宝\c#\bs\CompanyWX\WeiXinCommon\bin\Debug\Dapper.dll
+E:\淘宝\c#\bs\CompanyWX\WeiXinCommon\bin\Debug\CompanyModel.pdb
+E:\淘宝\c#\bs\CompanyWX\WeiXinCommon\bin\Debug\DBHelper.pdb
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\WeiXinCommon\bin\Debug\WeiXinCommon.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\WeiXinCommon\bin\Debug\WeiXinCommon.pdb
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\WeiXinCommon\bin\Debug\CompanyModel.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\WeiXinCommon\bin\Debug\DBHelper.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\WeiXinCommon\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\WeiXinCommon\bin\Debug\Dapper.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\WeiXinCommon\bin\Debug\CompanyModel.pdb
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\WeiXinCommon\bin\Debug\DBHelper.pdb
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\WeiXinCommon\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\WeiXinCommon\obj\Debug\SRX.WeiXinCommon.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\WeiXinCommon\obj\Debug\WeiXinCommon.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\WeiXinCommon\obj\Debug\WeiXinCommon.pdb
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\WeiXinCommon\bin\Debug\WeiXinCommon.dll
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\WeiXinCommon\bin\Debug\WeiXinCommon.pdb
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\WeiXinCommon\bin\Debug\CompanyModel.dll
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\WeiXinCommon\bin\Debug\DBHelper.dll
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\WeiXinCommon\bin\Debug\Newtonsoft.Json.dll
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\WeiXinCommon\bin\Debug\Dapper.dll
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\WeiXinCommon\bin\Debug\CompanyModel.pdb
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\WeiXinCommon\bin\Debug\DBHelper.pdb
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\WeiXinCommon\bin\Debug\Newtonsoft.Json.xml
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\WeiXinCommon\obj\Debug\SRX.WeiXinCommon.csprojResolveAssemblyReference.cache
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\WeiXinCommon\obj\Debug\WeiXinCommon.dll
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\WeiXinCommon\obj\Debug\WeiXinCommon.pdb
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\WeiXinCommon\bin\Debug\WeiXinCommon.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\WeiXinCommon\bin\Debug\WeiXinCommon.pdb
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\WeiXinCommon\bin\Debug\CompanyModel.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\WeiXinCommon\bin\Debug\DBHelper.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\WeiXinCommon\bin\Debug\Newtonsoft.Json.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\WeiXinCommon\bin\Debug\Dapper.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\WeiXinCommon\bin\Debug\CompanyModel.pdb
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\WeiXinCommon\bin\Debug\DBHelper.pdb
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\WeiXinCommon\bin\Debug\Newtonsoft.Json.xml
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\WeiXinCommon\obj\Debug\SRX.WeiXinCommon.csprojResolveAssemblyReference.cache
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\WeiXinCommon\obj\Debug\WeiXinCommon.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\WeiXinCommon\obj\Debug\WeiXinCommon.pdb
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\WeiXinCommon\bin\Debug\WeiXinCommon.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\WeiXinCommon\bin\Debug\WeiXinCommon.pdb
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\WeiXinCommon\bin\Debug\CompanyModel.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\WeiXinCommon\bin\Debug\DBHelper.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\WeiXinCommon\bin\Debug\Newtonsoft.Json.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\WeiXinCommon\bin\Debug\Dapper.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\WeiXinCommon\bin\Debug\CompanyModel.pdb
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\WeiXinCommon\bin\Debug\DBHelper.pdb
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\WeiXinCommon\bin\Debug\Newtonsoft.Json.xml
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\WeiXinCommon\obj\Debug\SRX.WeiXinCommon.csprojResolveAssemblyReference.cache
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\WeiXinCommon\obj\Debug\WeiXinCommon.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\WeiXinCommon\obj\Debug\WeiXinCommon.pdb

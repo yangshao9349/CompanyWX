@@ -1,0 +1,42 @@
+E:\淘宝\CompanyWX\CompanyIService\bin\Debug\CompanyIService.dll
+E:\淘宝\CompanyWX\CompanyIService\bin\Debug\CompanyIService.pdb
+E:\淘宝\CompanyWX\CompanyIService\bin\Debug\CompanyModel.dll
+E:\淘宝\CompanyWX\CompanyIService\bin\Debug\CompanyModel.pdb
+E:\淘宝\CompanyWX\CompanyIService\obj\Debug\CompanyIService.csprojResolveAssemblyReference.cache
+E:\淘宝\CompanyWX\CompanyIService\obj\Debug\CompanyIService.dll
+E:\淘宝\CompanyWX\CompanyIService\obj\Debug\CompanyIService.pdb
+E:\淘宝\c#\bs\CompanyWX\CompanyIService\bin\Debug\CompanyIService.dll
+E:\淘宝\c#\bs\CompanyWX\CompanyIService\bin\Debug\CompanyIService.pdb
+E:\淘宝\c#\bs\CompanyWX\CompanyIService\bin\Debug\CompanyModel.dll
+E:\淘宝\c#\bs\CompanyWX\CompanyIService\bin\Debug\CompanyModel.pdb
+E:\淘宝\c#\bs\CompanyWX\CompanyIService\obj\Debug\CompanyIService.csprojResolveAssemblyReference.cache
+E:\淘宝\c#\bs\CompanyWX\CompanyIService\obj\Debug\CompanyIService.dll
+E:\淘宝\c#\bs\CompanyWX\CompanyIService\obj\Debug\CompanyIService.pdb
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyIService\bin\Debug\CompanyIService.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyIService\bin\Debug\CompanyIService.pdb
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyIService\bin\Debug\CompanyModel.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyIService\bin\Debug\CompanyModel.pdb
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyIService\obj\Debug\CompanyIService.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyIService\obj\Debug\CompanyIService.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyIService\obj\Debug\CompanyIService.pdb
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyIService\bin\Debug\CompanyIService.dll
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyIService\bin\Debug\CompanyIService.pdb
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyIService\bin\Debug\CompanyModel.dll
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyIService\bin\Debug\CompanyModel.pdb
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyIService\obj\Debug\CompanyIService.csprojResolveAssemblyReference.cache
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyIService\obj\Debug\CompanyIService.dll
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyIService\obj\Debug\CompanyIService.pdb
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyIService\bin\Debug\CompanyIService.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyIService\bin\Debug\CompanyIService.pdb
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyIService\bin\Debug\CompanyModel.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyIService\bin\Debug\CompanyModel.pdb
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyIService\obj\Debug\CompanyIService.csprojResolveAssemblyReference.cache
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyIService\obj\Debug\CompanyIService.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyIService\obj\Debug\CompanyIService.pdb
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyIService\bin\Debug\CompanyIService.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyIService\bin\Debug\CompanyIService.pdb
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyIService\bin\Debug\CompanyModel.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyIService\bin\Debug\CompanyModel.pdb
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyIService\obj\Debug\CompanyIService.csprojResolveAssemblyReference.cache
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyIService\obj\Debug\CompanyIService.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyIService\obj\Debug\CompanyIService.pdb

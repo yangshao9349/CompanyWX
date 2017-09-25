@@ -1,0 +1,103 @@
+﻿@{
+    ViewBag.Title = "AddText";
+    Layout = "~/Views/Layout/Layout.cshtml";
+    var model = ViewBag.model != null ? ViewBag.model as CompanyModel.Reply : null;
+}
+
+<link href="/Content/css/plugins/iCheck/custom.css" rel="stylesheet">
+<link href="/Content/css/plugins/sweetalert/sweetalert.css" rel="stylesheet">
+<script src="/Content/js/plugins/iCheck/icheck.min.js"></script>
+<script src="/Content/js/plugins/sweetalert/sweetalert.min.js"></script>
+<div class="col-lg-12">
+    <div class="ibox float-e-margins">
+        <div class="ibox-title">
+            <h5>文本回复添加</h5>
+
+        </div>
+
+        <div class="ibox-content">
+            <form action="/index.php/Home/Admin/addvideos" id="myform" method="post" class="form-horizontal" enctype="multipart/form-data">
+                @{
+                    if (model == null)
+                    {
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">关键词</label>
+                            <div class="col-sm-10"><input type="text" id="keys" class="form-control" value=""></div>
+                        </div>
+                     
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">内容</label>
+                            <div class="col-sm-10">
+
+
+                                <textarea cols="100" rows="12" id="contents"></textarea>
+
+                            </div>
+
+                        </div>
+                    }
+                    else
+                    {
+                        <input id="id" value="@(model.id)" hidden="hidden" />
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">关键词</label>
+                            <div class="col-sm-10"><input type="text" id="keys" value="@(model.keys)" class="form-control" value=""></div>
+                        </div>
+
+                       
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">内容</label>
+                            <div class="col-sm-10">
+
+
+                                <textarea cols="100" rows="12" id="contents">@(model.contents)</textarea>
+
+                            </div>
+
+
+                        </div>
+                    }
+                }
+
+                <div class="form-group">
+                    <div class="col-sm-4 col-sm-offset-2">
+
+                        <button class="btn btn-primary" type="button" onclick="sub();">保存</button>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+
+
+    </div>
+</div>
+<script>
+    function sub() {
+        var keys = $("#keys").val();
+        var contents = $("#contents").val();
+        var searchtype = $("#searchtype").val();
+        //包含匹配0，完全匹配1
+        var id = $("#id").val();
+        if (id == null) {
+            $.post("/Reply/AddReply", { "keys": keys, "contents": contents, "searchtype": searchtype, "type": "@(CompanyModel.Types.Text)" }, function (data) {
+                if (data.Result) {
+                    swal("Success!", data.Msg, "success");
+                    window.location.href = "/Reply/Index?type=@CompanyModel.Types.Text";
+                } else {
+                    swal("Success!", data.Msg, "error");
+                }
+            });
+        } else {
+            $.post("/Reply/AddReply", { "id": id, "keys": keys, "contents": contents, "searchtype": searchtype, "type": "@(CompanyModel.Types.Text)" }, function (data) {
+                if (data.Result) {
+                    swal("Success!", data.Msg, "success");
+                    window.location.href = "/Reply/Index?type=@CompanyModel.Types.Text";
+                } else {
+                    swal("Success!", data.Msg, "error");
+                }
+            });
+        }
+
+    }
+</script>

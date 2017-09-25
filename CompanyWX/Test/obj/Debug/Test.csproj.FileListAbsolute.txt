@@ -1,0 +1,14 @@
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\Test\bin\Debug\Test.exe
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\Test\bin\Debug\Test.pdb
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\Test\bin\Debug\CompanyModel.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\Test\bin\Debug\Newtonsoft.Json.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\Test\bin\Debug\WeiXinCommon.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\Test\bin\Debug\DBHelper.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\Test\bin\Debug\Dapper.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\Test\bin\Debug\CompanyModel.pdb
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\Test\bin\Debug\WeiXinCommon.pdb
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\Test\bin\Debug\Newtonsoft.Json.xml
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\Test\bin\Debug\DBHelper.pdb
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\Test\obj\Debug\Test.exe
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\Test\obj\Debug\Test.pdb

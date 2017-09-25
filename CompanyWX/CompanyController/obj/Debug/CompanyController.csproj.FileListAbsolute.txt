@@ -1,0 +1,105 @@
+E:\淘宝\CompanyWX\CompanyController\bin\Debug\CompanyController.dll
+E:\淘宝\CompanyWX\CompanyController\bin\Debug\CompanyController.pdb
+E:\淘宝\CompanyWX\CompanyController\obj\Debug\CompanyController.csprojResolveAssemblyReference.cache
+E:\淘宝\CompanyWX\CompanyController\obj\Debug\CompanyController.dll
+E:\淘宝\CompanyWX\CompanyController\obj\Debug\CompanyController.pdb
+E:\淘宝\CompanyWX\CompanyController\bin\Debug\CompanyIService.dll
+E:\淘宝\CompanyWX\CompanyController\bin\Debug\CompanyService.dll
+E:\淘宝\CompanyWX\CompanyController\bin\Debug\CompanyModel.dll
+E:\淘宝\CompanyWX\CompanyController\bin\Debug\DBHelper.dll
+E:\淘宝\CompanyWX\CompanyController\bin\Debug\Dapper.dll
+E:\淘宝\CompanyWX\CompanyController\bin\Debug\CompanyIService.pdb
+E:\淘宝\CompanyWX\CompanyController\bin\Debug\CompanyService.pdb
+E:\淘宝\CompanyWX\CompanyController\bin\Debug\CompanyModel.pdb
+E:\淘宝\CompanyWX\CompanyController\bin\Debug\DBHelper.pdb
+E:\淘宝\c#\bs\CompanyWX\CompanyController\bin\Debug\CompanyController.dll
+E:\淘宝\c#\bs\CompanyWX\CompanyController\bin\Debug\CompanyController.pdb
+E:\淘宝\c#\bs\CompanyWX\CompanyController\bin\Debug\CompanyIService.dll
+E:\淘宝\c#\bs\CompanyWX\CompanyController\bin\Debug\CompanyModel.dll
+E:\淘宝\c#\bs\CompanyWX\CompanyController\bin\Debug\CompanyService.dll
+E:\淘宝\c#\bs\CompanyWX\CompanyController\bin\Debug\DBHelper.dll
+E:\淘宝\c#\bs\CompanyWX\CompanyController\bin\Debug\Dapper.dll
+E:\淘宝\c#\bs\CompanyWX\CompanyController\bin\Debug\CompanyIService.pdb
+E:\淘宝\c#\bs\CompanyWX\CompanyController\bin\Debug\CompanyModel.pdb
+E:\淘宝\c#\bs\CompanyWX\CompanyController\bin\Debug\CompanyService.pdb
+E:\淘宝\c#\bs\CompanyWX\CompanyController\bin\Debug\DBHelper.pdb
+E:\淘宝\c#\bs\CompanyWX\CompanyController\obj\Debug\CompanyController.csprojResolveAssemblyReference.cache
+E:\淘宝\c#\bs\CompanyWX\CompanyController\obj\Debug\CompanyController.dll
+E:\淘宝\c#\bs\CompanyWX\CompanyController\obj\Debug\CompanyController.pdb
+E:\淘宝\c#\bs\CompanyWX\CompanyController\bin\Debug\WeiXinCommon.dll
+E:\淘宝\c#\bs\CompanyWX\CompanyController\bin\Debug\Newtonsoft.Json.dll
+E:\淘宝\c#\bs\CompanyWX\CompanyController\bin\Debug\WeiXinCommon.pdb
+E:\淘宝\c#\bs\CompanyWX\CompanyController\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyController\bin\Debug\CompanyController.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyController\bin\Debug\CompanyController.pdb
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyController\bin\Debug\CompanyIService.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyController\bin\Debug\CompanyModel.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyController\bin\Debug\CompanyService.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyController\bin\Debug\WeiXinCommon.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyController\bin\Debug\DBHelper.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyController\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyController\bin\Debug\Dapper.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyController\bin\Debug\CompanyIService.pdb
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyController\bin\Debug\CompanyModel.pdb
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyController\bin\Debug\CompanyService.pdb
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyController\bin\Debug\WeiXinCommon.pdb
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyController\bin\Debug\DBHelper.pdb
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyController\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyController\obj\Debug\CompanyController.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyController\obj\Debug\CompanyController.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyController\obj\Debug\CompanyController.pdb
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyController\bin\Debug\CompanyController.dll
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyController\bin\Debug\CompanyController.pdb
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyController\bin\Debug\CompanyIService.dll
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyController\bin\Debug\CompanyModel.dll
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyController\bin\Debug\CompanyService.dll
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyController\bin\Debug\System.Web.Mvc.dll
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyController\bin\Debug\WeiXinCommon.dll
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyController\bin\Debug\DBHelper.dll
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyController\bin\Debug\Newtonsoft.Json.dll
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyController\bin\Debug\Dapper.dll
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyController\bin\Debug\CompanyIService.pdb
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyController\bin\Debug\CompanyModel.pdb
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyController\bin\Debug\CompanyService.pdb
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyController\bin\Debug\WeiXinCommon.pdb
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyController\bin\Debug\DBHelper.pdb
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyController\bin\Debug\Newtonsoft.Json.xml
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyController\obj\Debug\CompanyController.csprojResolveAssemblyReference.cache
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyController\obj\Debug\CompanyController.dll
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyController\obj\Debug\CompanyController.pdb
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyController\bin\Debug\CompanyController.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyController\bin\Debug\CompanyController.pdb
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyController\bin\Debug\CompanyIService.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyController\bin\Debug\CompanyModel.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyController\bin\Debug\CompanyService.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyController\bin\Debug\WeiXinCommon.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyController\bin\Debug\DBHelper.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyController\bin\Debug\Newtonsoft.Json.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyController\bin\Debug\Dapper.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyController\bin\Debug\CompanyIService.pdb
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyController\bin\Debug\CompanyModel.pdb
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyController\bin\Debug\CompanyService.pdb
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyController\bin\Debug\WeiXinCommon.pdb
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyController\bin\Debug\DBHelper.pdb
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyController\bin\Debug\Newtonsoft.Json.xml
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyController\obj\Debug\CompanyController.csprojResolveAssemblyReference.cache
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyController\obj\Debug\CompanyController.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyController\obj\Debug\CompanyController.pdb
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyController\bin\Debug\CompanyController.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyController\bin\Debug\CompanyController.pdb
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyController\bin\Debug\CompanyIService.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyController\bin\Debug\CompanyModel.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyController\bin\Debug\CompanyService.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyController\bin\Debug\WeiXinCommon.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyController\bin\Debug\DBHelper.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyController\bin\Debug\Newtonsoft.Json.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyController\bin\Debug\Dapper.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyController\bin\Debug\CompanyIService.pdb
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyController\bin\Debug\CompanyModel.pdb
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyController\bin\Debug\CompanyService.pdb
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyController\bin\Debug\WeiXinCommon.pdb
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyController\bin\Debug\DBHelper.pdb
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyController\bin\Debug\Newtonsoft.Json.xml
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyController\obj\Debug\CompanyController.csprojResolveAssemblyReference.cache
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyController\obj\Debug\CompanyController.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyController\obj\Debug\CompanyController.pdb

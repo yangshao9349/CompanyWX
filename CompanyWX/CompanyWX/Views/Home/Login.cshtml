@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>管理系统</title>
+
+    <link href="/Content/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/Content/font-awesome/css/font-awesome.css" rel="stylesheet">
+
+    <link href="/Content/css/animate.css" rel="stylesheet">
+    <link href="/Content/css/style.css" rel="stylesheet">
+
+</head>
+
+<body class="gray-bg">
+
+
+
+
+
+
+    <div class="middle-box text-center loginscreen animated fadeInDown">
+        <div>
+            <div>
+
+
+
+            </div>
+            <h3>微信企业号系统</h3>
+            @*<form class="m-t" role="form" method="post">*@
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="用户名" required="" name="username">
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" placeholder="密码" required="" name="password">
+            </div>
+            <button id="submit_bt" class="btn btn-primary block full-width m-b">登录</button>
+            @*</form>*@
+            <p class="m-t"> <small>&copy; 2016</small> </p>
+        </div>
+    </div>
+
+    <!-- Mainly scripts -->
+
+    <script src="~/Content/js/jquery-2.1.1.js"></script>
+    <script src="~/Content/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+<script>
+    $(function () {
+
+        $("#submit_bt").click(function () {
+            var username = $("[name=username]").val();
+            var password = $("[name=password]").val();
+            $.post("/Home/CheckLogin", { "username": username, "password": password },
+                function (data) {
+                    if (data == -1) {
+                        alert("账号不存在，请确认！");
+                    } else if (data == 0) {
+                        alert("密码有误，请确认！");
+                    } else if (data ==2) {
+                        alert("发生未知错误，请确认！");
+                    } else {
+                        window.location.href = "/home/index";
+                    }
+                });
+        });
+    })
+</script>
+

@@ -1,0 +1,90 @@
+﻿@{
+    int pageIndex = ViewBag.pageindex;
+    int pageCount = ViewBag.pagecount;
+    int previewPage = pageIndex == 1 ? 1 : pageIndex - 1;
+    int nextPage = pageIndex == pageCount ? pageCount : pageIndex + 1;
+    string url = ViewBag.site;
+  
+
+    int start = pageIndex - (10 - 1) / 2;
+    start = start < 1 ? 1 : (start > pageCount ? pageCount : start);
+    int end = start + 10 - 1;
+    end = end > pageCount ? pageCount : (end < 1 ? 1 : end);
+
+}
+@if (ViewBag.recordcount > 0)
+{
+    <div class="page_operate" style="font-size:12px;" onload="jiazai()">
+        共计<label>@ViewBag.recordcount</label>条&nbsp;当前 <strong><font color='red'>@pageIndex</font></strong>/<strong>@pageCount</strong> 页
+        @if (pageCount > 1)
+        {
+            @(new HtmlString("&nbsp;&nbsp;&nbsp;"));
+            if (pageIndex > 1)
+            {
+                @Ajax.ActionLink("首页", url, new { stime = ViewBag.stime, etime = ViewBag.etime, name = ViewBag.name, gid = ViewBag.Gid, aid = ViewBag.Aid, order = ViewBag.Order, Page = 1, batchId = ViewBag.BatchId, bussinessId = ViewBag.BussinessId, type = ViewBag.Type, status = ViewBag.status, search = ViewBag.search, names = ViewBag.names, checktype = ViewBag.checktype }, new AjaxOptions { });
+            @(new HtmlString("&nbsp;&nbsp;&nbsp;"));
+            @Ajax.ActionLink("上一页", url, new { stime = ViewBag.stime, etime = ViewBag.etime, name = ViewBag.name, gid = ViewBag.Gid, aid = ViewBag.Aid, order = ViewBag.Order, Page = previewPage, batchId = ViewBag.BatchId, bussinessId = ViewBag.BussinessId, type = ViewBag.Type, status = ViewBag.status, search = ViewBag.search, names = ViewBag.names, checktype = ViewBag.checktype }, new AjaxOptions { });
+            @(new HtmlString("&nbsp;&nbsp;&nbsp;"));
+            }
+            else
+            {
+                <font>首页 &nbsp;&nbsp;&nbsp; 上一页&nbsp;&nbsp;&nbsp;</font>
+            }
+            for (; start <= end; start++)
+            {
+                if (start == pageIndex)
+                {
+                    <strong><font color='red'>@start</font></strong>
+
+                }
+                else
+                {
+                    @Ajax.ActionLink(start.ToString(), url, new { stime = ViewBag.stime, etime = ViewBag.etime, name = ViewBag.name, gid = ViewBag.Gid, aid = ViewBag.Aid, order = ViewBag.Order, Page = start, batchId = ViewBag.BatchId, bussinessId = ViewBag.BussinessId, type = ViewBag.Type, status = ViewBag.status, search = ViewBag.search, names = ViewBag.names, checktype = ViewBag.checktype }, new AjaxOptions { });
+
+                }
+                @(new HtmlString("&nbsp;&nbsp;&nbsp;"));
+            }
+            if (pageIndex < pageCount)
+            {
+                @Ajax.ActionLink("下一页", url, new { stime = ViewBag.stime, etime = ViewBag.etime, name = ViewBag.name, gid = ViewBag.Gid, aid = ViewBag.Aid, order = ViewBag.Order, Page = nextPage, batchId = ViewBag.BatchId, bussinessId = ViewBag.BussinessId, type = ViewBag.Type, status = ViewBag.status, search = ViewBag.search, names = ViewBag.names, checktype = ViewBag.checktype }, null);
+            @(new HtmlString("&nbsp;&nbsp;&nbsp;"));
+            @Ajax.ActionLink("末页", url, new { stime = ViewBag.stime, etime = ViewBag.etime, name = ViewBag.name, gid = ViewBag.Gid, aid = ViewBag.Aid, order = ViewBag.Order, Page = pageCount, batchId = ViewBag.BatchId, bussinessId = ViewBag.BussinessId, type = ViewBag.Type, status = ViewBag.status, search = ViewBag.search, names = ViewBag.names, checktype = ViewBag.checktype }, new AjaxOptions { });
+            @(new HtmlString("&nbsp;&nbsp;&nbsp;"));
+            }
+            else
+            {
+                <font>下一页 &nbsp;&nbsp;&nbsp;末页 &nbsp;&nbsp;&nbsp;</font>
+            }
+            @Ajax.ActionLink("下一页", url, new { stime = ViewBag.stime, etime = ViewBag.etime, gid = ViewBag.Gid, aid = ViewBag.Aid, order = ViewBag.Order, name = ViewBag.name, batchId = ViewBag.BatchId, bussinessId = ViewBag.BussinessId, type = ViewBag.Type, status = ViewBag.status, search = ViewBag.search, checktype = ViewBag.checktype }, null, new { id = "urlParam", style = "display:none;" });
+            @(new HtmlString("&nbsp;&nbsp;&nbsp;"));
+            <font>转到：</font> <input type='text' name='GoToPageNum' id='GoToPageNum' value='@pageIndex' style='width:25px;' onkeypress="if(event.keyCode < 48 || event.keyCode > 57){if(event.keyCode==13){document.getElementById('btnGoPage').click();event.returnValue=false;return false;}else{event.returnValue=false;return false;}}" />
+            <input value='GO' type='button' name='btnGoPage' id='btnGoPage' onclick="DoGoPage();" />
+        }
+        <script type="text/javascript">
+
+          
+            function DoGoPage() {
+                var v='@ViewBag.names';
+                
+                if(v!=""){
+                    document.getElementById('GoToPageNum').readOnly=true;
+                    return;
+                }
+        var objPageNum = document.getElementById('GoToPageNum');
+        var NewPage = new Number(objPageNum.value);
+        //if (objPageNum == null) return;
+
+        if (NewPage < 1 || NewPage > @pageCount){
+                        alert('请输入有效的页数！');
+                objPageNum.focus();
+                return;
+                }
+
+    var objUrl = document.getElementById("urlParam");
+    var href = objUrl.href;
+    objUrl.href += (href.indexOf("?") > -1 ? "&" : "?") + ("page=" + NewPage)
+    location.href = objUrl;
+    }
+        </script>
+    </div>
+}

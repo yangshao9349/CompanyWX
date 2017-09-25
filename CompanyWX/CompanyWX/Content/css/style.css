@@ -1,0 +1,80 @@
+@charset "utf-8";
+* { margin: 0px; padding: 0px; list-style: none; }
+html { width: 100%; overflow-x: hidden; }
+body { font-size: 14px; line-height: 24px; font-family: "Microsoft YaHei" !important; color: #000; padding-top: 50px; }
+a { text-decoration: none; color: #000; outline: medium; -webkit-tap-highlight-color: transparent; }
+img { border: none; vertical-align: middle; }
+input{ font-family: "Microsoft YaHei" !important; }
+.wp { width: 100%; max-width: 640px; margin: 0 auto; overflow: hidden; }
+.fl{ float:left;}
+.fr{ float:right;}
+.header { background:url(../images/topbj.png) repeat-x; border-bottom: 1px solid #8B8B8B; box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4); color: #fff; height: 50px; line-height: 50px; text-align: center; position: fixed; right: 0px; top: 0px; width: 100%; z-index:10;}
+.header span { font-size: 20px; }
+.header .icon-reorder { position: absolute; right: 10px; top: 10px; font-size: 30px; }
+.header .icon-user-md{ position: absolute; left: 10px; top: 10px; font-size: 30px; color: #fff; }
+.an_1 { border-radius: 5px; background-color: #EA5946; display: block; height: 40px; line-height: 40px; font-size: 16px; color: #fff; margin: 5px 8px; padding: 0 30px; text-align: center; }
+.copy { padding:8px; overflow: hidden; text-align: center; color: #fff;  background:url(../images/footbj.png) repeat-x; margin-top: 5px; background-size:100% 100%; }
+.box { border: 1px solid #C6C6C6; background-color: rgba(255, 255, 255, 0.9); border-radius: 5px; box-shadow: 0 1px 1px #f6f6f6; margin: 5px 8px; overflow:hidden;}
+.box .bt {box-shadow: 0 1px 0 #FFFFFF inset, 0 1px 0 #EEEEEE; background:url(../images/btbj.png) repeat-x; border-bottom: 1px solid #C6C6C6; line-height:24px; padding:5px 10px;background-size:100% 100%;}
+.box .nr { padding:10px; overflow:hidden; color:#666;}
+.box .nr img{ max-width:100%; height:auto;}
+.form{ overflow:hidden; margin:-8px 0; position:relative;}
+.form li{ border:1px solid #C6C6C6; border-radius:5px; overflow:hidden; margin:10px 0; line-height:36px;}
+.form li label{ width:25%; float:left; text-align:right;}
+.form li .form_inp1{ width:75%; border:none; height:20px; line-height:20px; padding:8px 0; font-size:14px; color:#aaa;}
+.form li .form_inp2{ width:50%; border:none; height:20px; line-height:20px; padding:8px 0; font-size:14px; color:#aaa;}
+.form li .form_sub{box-shadow: 0 1px 0 #94E700 inset, 0 1px 2px rgba(0, 0, 0, 0.5);  font-size: 16px;  border: 1px solid #0B8E00; color:#fff; background:url(../images/subbj.png) repeat-x;display:block; width:100%; height:36px; border-radius:5px; overflow:hidden;}
+.form li img{ float:right; margin: 10px;}
+.form2{ overflow:hidden; margin:-8px 0; position:relative;}
+.form2 li{ border:1px solid #C6C6C6; border-radius:5px; overflow:hidden; margin:10px 0; line-height:36px;}
+.form2 li label{text-align:left; margin-left:10px}
+.form2 li .form_inp1{ width:75%; border:none; height:20px; line-height:20px; padding:8px 0; font-size:14px; color:#aaa;}
+.form2 li .form_inp2{ width:50%; border:none; height:20px; line-height:20px; padding:8px 0; font-size:14px; color:#aaa;}
+.form2 li .form_sub{box-shadow: 0 1px 0 #94E700 inset, 0 1px 2px rgba(0, 0, 0, 0.5);  font-size: 16px;  border: 1px solid #0B8E00; color:#fff; background:url(../images/subbj.png) repeat-x;display:block; width:100%; height:36px; border-radius:5px; overflow:hidden;}
+.form2 li img{ float:right; margin:14px 10px 0 0;}
+.form2 li.lb2{padding-left:10px;}
+.form3{ overflow:hidden; margin:-8px 0; position:relative;}
+.form3 li{ border:1px solid #C6C6C6; border-radius:5px; overflow:hidden; margin:10px 0; line-height:36px;}
+.form3 li label{ width:33%; float:left; text-align:left; margin-left:10px}
+.form3 li .form_inp1{ width:75%; border:none; height:20px; line-height:20px; padding:8px 0; font-size:14px; color:#aaa;}
+.form3 li .form_inp2{ width:50%; border:none; height:20px; line-height:20px; padding:8px 0; font-size:14px; color:#aaa;}
+.form3 li .form_sub{box-shadow: 0 1px 0 #94E700 inset, 0 1px 2px rgba(0, 0, 0, 0.5);  font-size: 16px;  border: 1px solid #0B8E00; color:#fff; background:url(../images/subbj.png) repeat-x;display:block; width:100%; height:36px; border-radius:5px; overflow:hidden;}
+.form3 li img{ float:right; margin:14px 10px 0 0;}
+.view{ overflow:hidden;}
+.view li{ border:1px solid #e0e0e0; border-radius:10px; overflow:hidden; margin:5px; padding:5px 10px; height:30px; line-height:30px;}
+.view li a{ display:block; overflow:hidden;}
+.view li a span{ float:right;}
+.view li a span .icon-time{ font-size:16px; padding-right:5px;}
+.view li a .icon-file-alt{ font-size:16px; padding-right:6px;}
+.view li.no{ text-align:center;}
+.page{ overflow:hidden; padding:5px 30px 10px 30px; font-size:16px;}
+.page span{ width:47%; margin:0 1%; display:block; float:left; text-align:center; border-radius:10px; overflow:hidden; box-shadow: 0 1px 0 #FFFFFF inset, 0 1px 0 #EEEEEE; border:1px solid #f0f0f0; height:36px; line-height:36px}
+.page a{ width:48%; margin:0 1%; display:block; float:left; text-align:center; border-radius:10px; overflow:hidden; box-shadow: 0 1px 0 #FFFFFF inset, 0 1px 0 #EEEEEE;background: linear-gradient(#f0f0f0, #e8e8e8); height:36px; line-height:36px;}
+.menu{ position:fixed; right:0px; top:50px; width:100%; background:#fff; box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4); text-align:center; z-index:9999; display:none;}
+.menu li{border-bottom: solid 1px #eee;padding:0 12px; height:40px; line-height:40px;}
+.menu li a{font-size:16px; display:block; overflow:hidden;}
+.menu li i{ float:left; font-size:24px; margin-top:7px; color:#888;}
+.menu li i.icon-caret-left{ float:right;}
+.menua{ position:fixed; left:0px; top:0px; width:100%; height:100%; z-index:8888; display:none;}
+#play{ margin:5px 0; overflow:hidden;}
+.diybox { padding:5px; overflow:hidden;}
+.diybox img{ max-width:100%; height:auto;}
+.wuj *{margin:0px; padding:0px; list-style:none; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+.wuj *:before,.wuj *:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box }
+.formpl{ overflow:hidden; position:relative;}
+.formpl li{overflow:hidden;  line-height:36px; padding:5px 0;}
+.formpl li .form_inp1{ width:100%; border:none; height:36px; line-height:36px; padding:0 10px; font-size:14px; color:#aaa;}
+.formpl li .form_sub{box-shadow: 0 1px 0 #94E700 inset, 0 1px 2px rgba(0, 0, 0, 0.5);  font-size: 16px;  border: 1px solid #0B8E00; color:#fff; background:url(../images/subbj.png) repeat-x;display:block; width:100%; height:36px; border-radius:5px; overflow:hidden;}
+.formpl li .form_tex{ width:100%; border:1px solid #eee; padding:8px 10px; height:80px; line-height:20px; font-size:14px; color:#aaa; float:left;}
+.formpl li .form_inp2{ width:70%; border:1px solid #eee; height:36px; line-height:36px; font-size:14px; color:#aaa; padding:0 10px; float:left;}
+.formpl li .line{ overflow:hidden;}
+.formpl li .line img{ float:right; margin:14px 10px 0 0;}
+.pllist{ overflow:hidden; margin:-5px 0; position:relative;}
+.pllist li{ overflow:hidden; border:1px solid #eee;-moz-border-radius:7px;-webkit-border-radius:7px;border-radius:7px; padding:0 5px; margin:5px 0; font-size:12px;}
+.pllist li .b{ overflow:hidden; border-bottom:1px solid #eee; height:30px; line-height:30px;}
+.pllist li .b .fl{ color:#09C;}
+.pllist li .b .fr{ color:#888;}
+.pllist li .n{ overflow:hidden; padding:5px 0; line-height:20px;}
+.pllist li .cs{ overflow:hidden; border-top:1px dashed #eee; text-align:right; color:#888;}
+.pllist li .cs a.on{ color:#888;}
+.pllist li.no{ text-align:center;}

@@ -1,0 +1,83 @@
+﻿@{
+
+    var obj = ViewBag.obj as CompanyModel.Material;
+    var mm = ViewBag.model as CompanyModel.Material;
+    ViewBag.Title = mm.title;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+
+    <link rel="dns-prefetch" href="//res.wx.qq.com">
+    <link rel="dns-prefetch" href="//mmbiz.qpic.cn">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+
+    <link href="~/Content/css/app.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://res.wx.qq.com/mmocbiz/zh_CN/mobile/qy-msg/css/style-article-improve_9e913ad9.css">
+    <link rel="stylesheet" type="text/css" href="https://res.wx.qq.com/mmocbiz/zh_CN/mobile/qy-msg/css/style-article-improve-combo_756bdf5e.css">
+
+
+</head>
+<body id="activity-detail" class="zh_CN mm_appmsg">
+    <div id="js_article" class="rich_media">
+        <div id="js_top_ad_area" class="top_banner">
+        </div>
+        <div class="rich_media_inner">
+
+            <div id="page-content">
+
+                <div id="img-content" class="rich_media_area_primary">
+
+                    <h2 class="rich_media_title" id="activity-name">@mm.title</h2>
+
+                    <div class="rich_media_meta_list">
+
+                        <em id="post-date" class="rich_media_meta rich_media_meta_text">@obj.createtime</em>
+
+
+
+
+
+
+                    </div>
+
+
+                    <div class="rich_media_content " id="js_content">@Html.Raw(mm.contents)</div>
+                </div>
+
+
+                @{
+                    if (mm.annex != "")
+                    {
+                        <div style="padding: 5px 0;height:50px;">
+                            <a href="@mm.annex">
+                                <div style="margin: 0px;font-size: 16px;background-color: #ffffff">
+                                    <div style="font-size: 14px;border: 1px solid #C8CACD;height:50px ">
+                                        <div style="margin: 5px;">
+                                            <div style="height: 40px;width: 40px;float: left;">
+                                                <img src="http://shp.qpic.cn/bizmp/9oicVyrquRicPazbJZ6PaWNNc5uSAtONdicBxpDIPiaHudpYeskm62iaNww/" width="40" height="40">
+                                            </div>
+                                            <div style="margin-left: 50px;line-height: 20px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;max-width: 100%;">
+                                                <span style="text-decoration:none;color: #232528">@mm.filename</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    }
+                }
+                
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

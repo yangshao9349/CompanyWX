@@ -1,0 +1,617 @@
+﻿@{
+    ViewBag.Title = "AddUrl";
+    Layout = "~/Views/Layout/Layout.cshtml";
+    var obj = ViewBag.obj as CompanyModel.Material;
+}
+
+<link href="~/Content/css/addimagetext.css" rel="stylesheet">
+<link href="~/Content/css/mytab.css" rel="stylesheet">
+<link href="~/Content/css/tabtext.css" rel="stylesheet">
+<link href="/Content/css/plugins/iCheck/custom.css" rel="stylesheet">
+<link href="/Content/css/plugins/sweetalert/sweetalert.css" rel="stylesheet">
+<script src="/Content/js/plugins/iCheck/icheck.min.js"></script>
+<script src="/Content/js/plugins/sweetalert/sweetalert.min.js"></script>
+<link rel="stylesheet" href="~/Content/FileUpload/css/jquery.fileupload.css" />
+
+<div class="message_view js_material_view">
+    <div class="message_list">
+        <div class="message_bar" style="padding: 0 10px;">
+            <div class="float-right js_create"><a class=" btn mb_btn float-right js_new_video" href="/Material/ImageText">返回</a></div>
+            <ul class="js_toolbar message_filetype_items">
+                <li data-type="text"><a href="/Material/Index">文字</a></li>
+                <li data-type="image" class=""><a href="/Material/Pic">图片</a></li>
+                <li data-type="audio" class=""><a href="/Material/Voice" class="active">语音</a></li>
+                <li data-type="video"><a href="/Material/Video">视频</a></li>
+                <li data-type="article" class="active"><a href="/Material/ImageText">图文</a></li>
+                <li data-type="file" class=""><a href="/Material/File">文件</a></li>
+
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="col-lg-7">
+
+    <div class="ibox float-e-margins">
+        <div class="ibox-title">
+            <h5>外链添加</h5>
+
+        </div>
+        <div class="ibox-content">
+            <form action="" id="myform" method="post" class="form-horizontal" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">标题</label>
+                    <div class="col-sm-10"><input type="text" id="title" name="title" class="form-control" value="@obj.title" /></div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">封面图片</label>
+                    <div class="col-sm-10">
+                        <span class="btn btn-success fileinput-button">
+                            <i class="glyphicon glyphicon-plus"></i>
+                            <span>添加素材</span>
+
+                            <input id="fileupload" type="file" name="imgFile" multiple>
+                        </span>
+                        <div id="showpic">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">作者</label>
+                    <div class="col-sm-10"><input type="text" id="author" name="title" class="form-control" value="@obj.author" /></div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">原文链接</label>
+                    <div class="col-sm-10">
+                        <input type="text" name="" id="url" class="form-control" value="@obj.url" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">摘要</label>
+                    <div class="col-sm-10">
+                        <input type="text" id="summary" value="@obj.summary" name="description" class="mod-send-message-input-large mod-send-message-user-input" placeholder="" style="width:100%;height: 100px;padding-bottom:20px;">
+
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">正文</label>
+                    <div class="col-sm-10">
+                        <script id="editor" type="text/plain" style="width:100%;height:200px;">
+                            @Html.Raw(obj.contents)
+                    </script>
+
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-sm-2 control-label">附件</label>
+                <div class="col-sm-10">
+                    <span class="btn btn-success fileinput-button">
+                        <i class="glyphicon glyphicon-plus"></i>
+                        <span>添加附件</span>
+
+                        <input id="file_fujian" type="file" name="imgFile" multiple>
+                    </span>
+                    <div id="showfiles">
+                        @{
+                            if (obj.annex != null)
+                            {
+                                <a href="@obj.annex" target="_blank">@obj.filename</a>
+                                <a href="javascript:" onclick="delfile('@obj.annex',this)">删除</a><br />
+                            }
+                        }
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <div class="form-group">
+                <div class="col-sm-4 col-sm-offset-2">
+
+                    <button class="btn btn-primary" type="button" onclick="uptext();">保存</button>
+                </div>
+            </div>
+            <input name="content" type="hidden" id="content">
+        </form>
+    </div>
+</div>
+</div>
+<div class="col-lg-5">
+    <div class="ibox float-e-margins">
+        <div class="ibox-content">
+            <div class="video_unit">
+                <div>
+                    <div class="video_image js_msg_item  active">
+                        <div class="choose_mode_style"></div>
+                        <div class="video_image_wrap" data-type="img">
+                            <img src='@obj.mylist[0].topimg' width="100%" />
+                        </div>
+
+
+                        <p class="video_sub_title lbl_title"
+                           data-url="@obj.mylist[0].url" data-author="@obj.mylist[0].author"
+                           data-summary="@obj.mylist[0].summary"
+                           data-contents="@obj.mylist[0].contents"
+                           data-fujian="@obj.mylist[0].annex"
+                           data-filename="@obj.mylist[0].filename">@obj.mylist[0].title</p>
+
+
+                    </div>
+
+
+                </div>
+                <div class="main">
+                    @{
+
+                        for (int i = 1; i < obj.mylist.Count; i++)
+                        {
+                            <div class="video_artical js_msg_item  ">
+                                <div class="choose_mode_style"></div>
+                                <p class="image_edit_placeholder">
+                                    <img class='video_artical_img' src='@obj.mylist[i].topimg' width="100%" />
+                                </p>
+                                <p class="js_article_title video_artical_title lbl_title"
+                                   data-url="@obj.mylist[i].url" data-author="@obj.mylist[i].author"
+                                   data-summary="@obj.mylist[i].summary"
+                                   data-contents="@obj.mylist[i].contents"
+                                   data-fujian="@obj.mylist[i].annex"
+                                   data-filename="@obj.mylist[i].filename">@obj.mylist[i].title</p>
+                                <span class="video_vertical"></span>
+                                <span class="video_artical_option">
+                                    <span class="icon_message_moveUp js_move_up" title="上移" style="z-index:999"></span>
+                                    <span class="icon_message_delete js_msg_delete" title="删除" style="z-index:999"></span>
+
+                                </span>
+                            </div>
+                        }
+
+
+                    }
+                </div>
+
+
+
+                <span class="video_artical_add js_msg_add" style="z-index:999">
+                    <span class="video_artical_add_button">
+                        <span class="icon_message_new ui-mt-large"></span>
+                    </span>
+                </span>
+
+            </div>
+        </div>
+    </div>
+</div>
+<input type="hidden" value="@obj.id" id="myid" />
+
+<script type="text/javascript" src="\Content\ueditor\ueditor.config.js"></script>
+<script type="text/javascript" src="\Content\ueditor\ueditor.all.js"></script>
+
+<script src="~/Content/FileUpload/js/vendor/jquery.ui.widget.js"></script>
+<script src="~/Content/FileUpload/js/jquery.iframe-transport.js"></script>
+<script src="~/Content/FileUpload/js/jquery.fileupload.js"></script>
+<script>
+    var ue = UE.getEditor('editor');
+    ue.addListener("selectionchange", function () {
+        var arr = (UE.getEditor('editor').getContent());
+        setcontents(arr);
+
+    })
+
+    $(function () {
+        'use strict';
+        var url = "/Ashx/upload.ashx?p=pic";
+        $('#fileupload').fileupload({
+            autoUpload: true,//是否自动上传
+            url: url,
+            dataType: 'json',
+            done: function (e, data) {
+                // message
+                console.log(data.result);
+                if (data.result.error == 1) {
+                    swal("上传出错了!", data.result.message, "success");
+                } else {
+                    var url = data.result.url;
+                    setimgurl(url);
+
+
+
+                }
+            },
+            progressall: function (e, data) {
+                var progress = parseInt(data.loaded / data.total * 100, 10);
+                $('#progress .progress-bar').css(
+                    'width',
+                    progress + '%'
+                );
+            }
+        }).prop('disabled', !$.support.fileInput)
+            .parent().addClass($.support.fileInput ? undefined : 'disabled');
+
+
+        var fileurl = "/Ashx/upload.ashx?p=file";
+        //上传附件
+        $('#file_fujian').fileupload({
+            autoUpload: true,//是否自动上传
+            url: fileurl,
+            dataType: 'json',
+            done: function (e, data) {
+                // message
+                console.log(data.result);
+                if (data.result.error == 1) {
+                    swal("上传出错了!", data.result.message, "success");
+                } else {
+
+                    setfile(data);
+
+
+
+                }
+            },
+            progressall: function (e, data) {
+                var progress = parseInt(data.loaded / data.total * 100, 10);
+                $('#progress .progress-bar').css(
+                    'width',
+                    progress + '%'
+                );
+            }
+        }).prop('disabled', !$.support.fileInput)
+           .parent().addClass($.support.fileInput ? undefined : 'disabled');
+
+        $(".icon_message_new").click(function () {
+            $("#title").val("");
+            $("#url").val("");
+            clearactive();
+
+            var html = '<div class="video_artical js_msg_item active " index="1">';
+            html += '<div class="choose_mode_style"></div>';
+            html += '<p class="image_edit_placeholder"></p>';
+            html += '<p class="js_article_title video_artical_title lbl_title"></p>';
+            html += '<span class="video_vertical"></span>';
+            html += '<span class="video_artical_option">';
+            html += '<span class="icon_message_moveUp js_move_up" title="上移" index="1" style="z-index:999"></span>';
+            html += '<span class="icon_message_delete js_msg_delete" title="删除"  index="1" style="z-index:999"></span>';
+            html += '</span></div>';
+            $(".main").append(html);
+
+            //删除一个模块
+            $(".icon_message_delete").click(function () {
+                var obj = $(this).parent().parent().remove();
+            });
+            //点击第一个模块
+            $(".video_artical").click(function () {
+
+                var title = $(this).find(".lbl_title").html();
+                var url = $(this).find(".lbl_title").data("url");
+                var author = $(this).find(".lbl_title").data("author");
+                var summary = $(this).find(".lbl_title").data("summary");
+                var contents = $(this).find(".lbl_title").data("contents");
+
+                $("#title").val(title);
+                $("#author").val(author);
+                $("#url").val(url);
+                $("#summary").val(summary);
+
+                if (typeof (contents) == "undefined") {
+                    ue.setContent("");
+                } else {
+                    ue.setContent(contents);
+                }
+
+                clearactive();
+                $(this).addClass("active");
+            });
+            //鼠标移入模块
+            $(".video_artical").mouseover(function () {
+                var obj = $(this);
+                obj.find(".video_artical_option").css("opacity", "1");
+            });
+            //鼠标移出模块
+            $(".video_artical").mouseout(function () {
+                var obj = $(this);
+                obj.find(".video_artical_option").css("opacity", "0");
+            });
+
+        });
+
+        $(".icon_message_delete").click(function () {
+            var obj = $(this).parent().parent().remove();
+        });
+        //点击列表模块
+        $(".video_artical").click(function () {
+
+            var title = $(this).find(".lbl_title").html();
+            var url = $(this).find(".lbl_title").data("url");
+            var author = $(this).find(".lbl_title").data("author");
+            var summary = $(this).find(".lbl_title").data("summary");
+            var contents = $(this).find(".lbl_title").data("contents");
+            var fujian = $(this).find(".lbl_title").data("fujian");
+            var filename = $(this).find(".lbl_title").data("filename");
+
+            $("#title").val(title);
+            $("#author").val(author);
+            $("#url").val(url);
+            $("#summary").val(summary);
+        
+            if (fujian != "") {
+                $("#showfiles").html('<div id="showfiles"><a href="' + fujian + '" target="_blank">' +
+               filename + '</a>&nbsp;&nbsp;&nbsp;<a  class="delfile">删除</a></div>');
+            }
+
+
+            if (typeof (contents) == "undefined") {
+                ue.setContent("");
+            } else {
+
+                ue.setContent(contents + "");
+            }
+
+            clearactive();
+            $(this).addClass("active");
+
+            //删除附件
+            $(".delfile").click(function () {
+                $(this).parent().remove();
+                $(".active").find(".lbl_title").data("fujian", "");
+                $(".active").find(".lbl_title").data("filename", "");
+            });
+        });
+      
+        //鼠标移入模块
+        $(".video_artical").mouseover(function () {
+            var obj = $(this);
+            obj.find(".video_artical_option").css("opacity", "1");
+        });
+        //鼠标移出模块
+        $(".video_artical").mouseout(function () {
+            var obj = $(this);
+            obj.find(".video_artical_option").css("opacity", "0");
+        });
+
+
+        $('#title').bind('input propertychange', function () { settext(); });
+        //作者监控
+        $('#author').bind('input propertychange', function () { setauthor(); });
+        //原文链接监控
+        $('#url').bind('input propertychange', function () { seturl(); });
+        //设置摘要监控
+        $("#summary").bind('input propertychange', function () { setsummary(); });
+
+        //点击第一个模块
+        $(".video_image").click(function () {
+
+            var title = $(this).find(".lbl_title").html();
+            var url = $(this).find(".lbl_title").data("url");
+            var author = $(this).find(".lbl_title").data("author");
+            var summary = $(this).find(".lbl_title").data("summary");
+            var author = $(this).find(".lbl_title").data("author");
+            var contents = $(this).find(".video_sub_title").data("contents");
+            var fujian = $(this).find(".lbl_title").data("fujian");
+            var filename = $(this).find(".lbl_title").data("filename");
+             
+
+            $("#title").val(title);
+            $("#author").val(author);
+            $("#url").val(url);
+            $("#summary").val(summary);
+            if (fujian != "") {
+                $("#showfiles").html('<div id="showfiles"><a href="' + fujian + '" target="_blank">' +
+               filename + '</a>&nbsp;&nbsp;&nbsp;<a href="javascript:" class="delfile">删除</a></div>');
+            }
+           
+
+            if (typeof (contents) == "undefined") {
+                ue.setContent("");
+            } else {
+                ue.setContent(contents + "");
+            }
+
+
+            clearactive();
+            $(this).addClass("active");
+        });
+
+
+
+    });
+    function clearactive() {
+        $(".video_artical").removeClass("active");
+        $(".video_image").removeClass("active");
+    }
+    //设置文字
+    function settext() {
+        var title = $("#title").val();
+        $(".active").find(".lbl_title").html(title);
+    }
+    //设置作者
+    function setauthor() {
+        var author = $("#author").val();
+        $(".active").find(".lbl_title").data("author", author);
+    }
+    //设置原文链接
+    function seturl() {
+        var url = $("#url").val();
+        $(".active").find(".lbl_title").data("url", url);
+    }
+    //设置摘要
+    function setsummary() {
+        var summary = $("#summary").val();
+        $(".active").find(".lbl_title").data("summary", summary);
+    }
+    //设置图片
+    function setimgurl(url) {
+
+        var obj = $(".active").find(".video_image_wrap").data("type");
+
+        if (obj == "img") {
+
+            $(".video_image_wrap").html("<img src='" + url + "'/>");
+            $(".video_image_wrap").css("display", "block");
+        } else {
+            $(".active").find(".image_edit_placeholder").html("<img class='video_artical_img' src='" + url + "'/>");
+        }
+
+        $("#showpic").html("<img src='" + url + "' width='100px'/>");
+
+    }
+    //设置附件
+
+    function setfile(data) {
+        console.log(data);
+        var obj = $(".active").find(".video_image_wrap").data("type");
+        if (obj == "img") {
+            $(".video_image").find(".lbl_title").data("fujian", data.result.url);
+            $(".video_image").find(".lbl_title").data("filename", data.result.filename);
+        } else {
+            $(".active").find(".lbl_title").data("fujian", data.result.url);
+            $(".active").find(".lbl_title").data("filename", data.result.filename);
+        }
+
+
+        $("#showfiles").html('<a href="' + data.result.url + '" target="_blank">' + data.result.filename
+            + '</a>');
+
+    }
+    //设置内容
+    function setcontents(arr) {
+
+        var obj = $(".active").find(".video_image_wrap").data("type");
+        if (obj == "img") {
+            $(".video_sub_title").data("contents", arr);
+        } else {
+            var arr = $(".active").find(".lbl_title").data("contents", arr);
+            ue.setContent(arr);
+        }
+    }
+
+    //删除文件
+    function delfile(url, obj) {
+        var html = $(obj).parent().remove();
+
+        $(".active").find(".lbl_title").data("fujian", "");
+        $(".active").find(".lbl_title").data("filename", "");
+    }
+    function uptext() {
+        var id = $("#myid").val();
+
+        var title = $(".video_image").find(".lbl_title").html();
+        var summary = $(".video_image").find(".lbl_title").data("summary");
+        var topimg = $(".video_image_wrap").find("img").attr("src");
+        var url = $(".video_image").find(".lbl_title").data("url");
+        var author = $(".video_image").find(".lbl_title").data("author");
+        var contents = $(".video_image").find(".video_sub_title").data("contents");
+        var annex = $(".video_image").find(".lbl_title").data("fujian");
+        var filename = $(".video_image").find(".lbl_title").data("filename");
+
+
+
+
+
+        var list = getcontents(title, summary, topimg, url, author, contents, annex, filename);
+        var arr = eval('(' + list + ')');
+
+        if (typeof (topimg) == "undefined") {
+            swal("Success!", "请上传图片", "success");
+
+        } else {
+            $.post("/Material/EditImageText", {
+                "id": id, "title": arr[0].title, "list": list, "topimg": arr[0].topimg
+                , "url": arr[0].url, "summary": arr[0].summary, "author": arr[0].author, "contents": arr[0].contents
+                , "annex": arr[0].annex, "filename": arr[0].filename
+            }, function (data) {
+                if (data.Result) {
+                    swal("Success!", data.Msg, "success");
+                    window.location.href = "/Material/ImageText";
+
+                } else {
+                    swal("Success!", data.Msg, "success");
+                }
+            });
+        }
+
+
+    }
+    function getcontents(title, summary, topimg, url, author, contents) {
+        var content = "";
+        if (typeof (topimg) == "undefined") {
+            topimg = "";
+        }
+
+        if (typeof (summary) == "undefined") {
+            summary = "";
+        }
+        if (typeof (url) == "undefined") {
+            url = "";
+        }
+        if (typeof (author) == "undefined") {
+            author = "";
+        }
+        if (typeof (contents) == "undefined") {
+            contents = "";
+        } else {
+            contents = contents.replace(/"/g, "'");
+            contents = contents.replace(/\n/g, "");
+        }
+        if (typeof (annex) == "undefined") {
+            annex = "";
+        }
+        if (typeof (filename) == "undefined") {
+            filename = "";
+        }
+
+        if ($(".main >.js_msg_item").length == 0) {
+            content += '{"title":"' + title + '","summary":"' + summary + '","topimg":"' + topimg
+          + '","url":"' + url + '","author":"' + author + '","contents":"' + contents + '","annex":"' + annex + '","filename":"' + filename + '"}';
+        } else {
+            content += '{"title":"' + title + '","summary":"' + summary + '","topimg":"' + topimg
+         + '","url":"' + url + '","author":"' + author + '","contents":"' + contents + '","annex":"' + annex + '","filename":"' + filename + '"},';
+        }
+        $(".main > .js_msg_item").each(function (i) {
+            var title1 = $(this).find(".lbl_title").html();
+            var summary1 = $(this).find(".lbl_title").data("summary");
+            var topimg1 = $(this).find("img").attr("src");
+            var url1 = $(this).find(".lbl_title").data("url");
+            var author1 = $(this).find(".lbl_title").data("author");
+            var contents1 = $(this).find(".lbl_title").data("contents");
+            var annex1 = $(this).find(".lbl_title").data("fujian");
+            var filename1 = $(this).find(".lbl_title").data("filename");
+
+            if (typeof (topimg1) == "undefined") {
+                topimg1 = "";
+            }
+            if (typeof (summary1) == "undefined") {
+                summary1 = "";
+            }
+            if (typeof (url1) == "undefined") {
+                url1 = "";
+            }
+            if (typeof (author1) == "undefined") {
+                author1 = "";
+            }
+            if (typeof (contents1) == "undefined") {
+                contents1 = "";
+            } else {
+                contents1 = contents1.replace(/"/g, "'");
+                contents1 = contents1.replace(/\n/g, "");
+            }
+            if (typeof (annex1) == "undefined") {
+                annex1 = "";
+            }
+            if (typeof (filename1) == "undefined") {
+                filename1 = "";
+            }
+            t = i == $(".main >.js_msg_item").length - 1 ? '' : ',';
+            content += '{"title":"' + title1 + '","summary":"' + summary1 + '","topimg":"' + topimg1
+                + '","url":"' + url1
+                + '","author":"' + author1 + '","contents":"' + contents1 + '","annex":"'
+                + annex1 + '","filename":"' + filename1 + '"}' + t;
+
+        });
+        if (content != "") {
+            content = "[" + content + "]";
+        }
+        return content;
+    }
+</script>

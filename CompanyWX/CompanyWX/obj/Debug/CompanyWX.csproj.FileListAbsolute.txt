@@ -1,0 +1,345 @@
+E:\淘宝\CompanyWX\CompanyWX\obj\Debug\CompanyWX.csprojResolveAssemblyReference.cache
+E:\淘宝\CompanyWX\CompanyWX\bin\CompanyWX.dll.config
+E:\淘宝\CompanyWX\CompanyWX\bin\CompanyWX.dll
+E:\淘宝\CompanyWX\CompanyWX\bin\CompanyWX.pdb
+E:\淘宝\CompanyWX\CompanyWX\bin\CompanyCore.dll
+E:\淘宝\CompanyWX\CompanyWX\bin\Microsoft.Web.Infrastructure.dll
+E:\淘宝\CompanyWX\CompanyWX\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\淘宝\CompanyWX\CompanyWX\bin\System.Net.Http.dll
+E:\淘宝\CompanyWX\CompanyWX\bin\System.Net.Http.Formatting.dll
+E:\淘宝\CompanyWX\CompanyWX\bin\System.Net.Http.WebRequest.dll
+E:\淘宝\CompanyWX\CompanyWX\bin\System.Web.Helpers.dll
+E:\淘宝\CompanyWX\CompanyWX\bin\System.Web.Http.dll
+E:\淘宝\CompanyWX\CompanyWX\bin\System.Web.Http.WebHost.dll
+E:\淘宝\CompanyWX\CompanyWX\bin\System.Web.Mvc.dll
+E:\淘宝\CompanyWX\CompanyWX\bin\System.Web.Razor.dll
+E:\淘宝\CompanyWX\CompanyWX\bin\System.Web.WebPages.Deployment.dll
+E:\淘宝\CompanyWX\CompanyWX\bin\System.Web.WebPages.dll
+E:\淘宝\CompanyWX\CompanyWX\bin\System.Web.WebPages.Razor.dll
+E:\淘宝\CompanyWX\CompanyWX\bin\WeiXinCommon.dll
+E:\淘宝\CompanyWX\CompanyWX\bin\Newtonsoft.Json.dll
+E:\淘宝\CompanyWX\CompanyWX\bin\CompanyCore.pdb
+E:\淘宝\CompanyWX\CompanyWX\bin\WeiXinCommon.pdb
+E:\淘宝\CompanyWX\CompanyWX\bin\System.Net.Http.xml
+E:\淘宝\CompanyWX\CompanyWX\bin\System.Net.Http.Formatting.xml
+E:\淘宝\CompanyWX\CompanyWX\bin\System.Net.Http.WebRequest.xml
+E:\淘宝\CompanyWX\CompanyWX\bin\System.Web.Helpers.xml
+E:\淘宝\CompanyWX\CompanyWX\bin\System.Web.Http.xml
+E:\淘宝\CompanyWX\CompanyWX\bin\System.Web.Http.WebHost.xml
+E:\淘宝\CompanyWX\CompanyWX\bin\System.Web.Mvc.xml
+E:\淘宝\CompanyWX\CompanyWX\bin\System.Web.Razor.xml
+E:\淘宝\CompanyWX\CompanyWX\bin\System.Web.WebPages.xml
+E:\淘宝\CompanyWX\CompanyWX\bin\System.Web.WebPages.Deployment.xml
+E:\淘宝\CompanyWX\CompanyWX\bin\System.Web.WebPages.Razor.xml
+E:\淘宝\CompanyWX\CompanyWX\bin\Newtonsoft.Json.xml
+E:\淘宝\CompanyWX\CompanyWX\bin\zh-Hans\System.Net.Http.resources.dll
+E:\淘宝\CompanyWX\CompanyWX\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+E:\淘宝\CompanyWX\CompanyWX\bin\zh-Hans\System.Net.Http.WebRequest.resources.dll
+E:\淘宝\CompanyWX\CompanyWX\bin\zh-Hans\System.Web.Helpers.resources.dll
+E:\淘宝\CompanyWX\CompanyWX\bin\zh-Hans\System.Web.Http.resources.dll
+E:\淘宝\CompanyWX\CompanyWX\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+E:\淘宝\CompanyWX\CompanyWX\bin\zh-Hans\System.Web.Mvc.resources.dll
+E:\淘宝\CompanyWX\CompanyWX\bin\zh-Hans\System.Web.Razor.resources.dll
+E:\淘宝\CompanyWX\CompanyWX\bin\zh-Hans\System.Web.WebPages.resources.dll
+E:\淘宝\CompanyWX\CompanyWX\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+E:\淘宝\CompanyWX\CompanyWX\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+E:\淘宝\CompanyWX\CompanyWX\obj\Debug\CompanyWX.dll
+E:\淘宝\CompanyWX\CompanyWX\obj\Debug\CompanyWX.pdb
+E:\淘宝\CompanyWX\CompanyWX\bin\CompanyController.dll
+E:\淘宝\CompanyWX\CompanyWX\bin\CompanyController.pdb
+E:\淘宝\CompanyWX\CompanyWX\bin\CompanyIService.dll
+E:\淘宝\CompanyWX\CompanyWX\bin\CompanyService.dll
+E:\淘宝\CompanyWX\CompanyWX\bin\CompanyModel.dll
+E:\淘宝\CompanyWX\CompanyWX\bin\DBHelper.dll
+E:\淘宝\CompanyWX\CompanyWX\bin\Dapper.dll
+E:\淘宝\CompanyWX\CompanyWX\bin\CompanyIService.pdb
+E:\淘宝\CompanyWX\CompanyWX\bin\CompanyService.pdb
+E:\淘宝\CompanyWX\CompanyWX\bin\CompanyModel.pdb
+E:\淘宝\CompanyWX\CompanyWX\bin\DBHelper.pdb
+E:\淘宝\CompanyWX\CompanyWX\bin\LitJSON.dll
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\CompanyWX.dll.config
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\CompanyWX.dll
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\CompanyWX.pdb
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\CompanyController.dll
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\CompanyCore.dll
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\LitJSON.dll
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\Microsoft.Web.Infrastructure.dll
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\System.Net.Http.dll
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\System.Net.Http.Formatting.dll
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\System.Net.Http.WebRequest.dll
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\System.Web.Helpers.dll
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\System.Web.Http.dll
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\System.Web.Http.WebHost.dll
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\System.Web.Mvc.dll
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\System.Web.Razor.dll
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\System.Web.WebPages.Deployment.dll
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\System.Web.WebPages.dll
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\System.Web.WebPages.Razor.dll
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\WeiXinCommon.dll
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\CompanyIService.dll
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\CompanyModel.dll
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\CompanyService.dll
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\Newtonsoft.Json.dll
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\DBHelper.dll
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\Dapper.dll
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\CompanyController.pdb
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\CompanyCore.pdb
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\WeiXinCommon.pdb
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\System.Net.Http.xml
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\System.Net.Http.Formatting.xml
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\System.Net.Http.WebRequest.xml
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\System.Web.Helpers.xml
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\System.Web.Http.xml
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\System.Web.Http.WebHost.xml
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\System.Web.Mvc.xml
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\System.Web.Razor.xml
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\System.Web.WebPages.xml
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\System.Web.WebPages.Deployment.xml
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\System.Web.WebPages.Razor.xml
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\CompanyIService.pdb
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\CompanyModel.pdb
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\CompanyService.pdb
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\Newtonsoft.Json.xml
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\DBHelper.pdb
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\zh-Hans\System.Net.Http.resources.dll
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\zh-Hans\System.Net.Http.WebRequest.resources.dll
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\zh-Hans\System.Web.Helpers.resources.dll
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\zh-Hans\System.Web.Http.resources.dll
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\zh-Hans\System.Web.Mvc.resources.dll
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\zh-Hans\System.Web.Razor.resources.dll
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\zh-Hans\System.Web.WebPages.resources.dll
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\obj\Debug\CompanyWX.csprojResolveAssemblyReference.cache
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\obj\Debug\CompanyWX.dll
+E:\淘宝\c#\bs\CompanyWX\CompanyWX\obj\Debug\CompanyWX.pdb
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\CompanyWX.dll.config
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\CompanyWX.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\CompanyWX.pdb
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\CompanyController.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\CompanyCore.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\LitJSON.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\System.Net.Http.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\System.Net.Http.Formatting.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\System.Net.Http.WebRequest.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\System.Web.Helpers.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\System.Web.Http.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\System.Web.Http.WebHost.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\System.Web.Mvc.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\System.Web.Razor.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\System.Web.WebPages.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\System.Web.WebPages.Razor.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\WeiXinCommon.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\CompanyIService.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\CompanyModel.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\CompanyService.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\DBHelper.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\Dapper.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\CompanyController.pdb
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\CompanyCore.pdb
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\WeiXinCommon.pdb
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\System.Net.Http.xml
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\System.Net.Http.Formatting.xml
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\System.Net.Http.WebRequest.xml
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\System.Web.Helpers.xml
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\System.Web.Http.xml
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\System.Web.Http.WebHost.xml
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\System.Web.Mvc.xml
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\System.Web.Razor.xml
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\System.Web.WebPages.xml
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\System.Web.WebPages.Razor.xml
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\CompanyIService.pdb
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\CompanyModel.pdb
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\CompanyService.pdb
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\DBHelper.pdb
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\zh-Hans\System.Net.Http.resources.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\zh-Hans\System.Net.Http.WebRequest.resources.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\zh-Hans\System.Web.Helpers.resources.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\zh-Hans\System.Web.Http.resources.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\zh-Hans\System.Web.Mvc.resources.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\zh-Hans\System.Web.Razor.resources.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\zh-Hans\System.Web.WebPages.resources.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\obj\Debug\CompanyWX.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\obj\Debug\CompanyWX.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\CompanyWX\obj\Debug\CompanyWX.pdb
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyWX\bin\CompanyWX.dll.config
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyWX\bin\CompanyWX.dll
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyWX\bin\CompanyWX.pdb
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyWX\bin\CompanyController.dll
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyWX\bin\CompanyCore.dll
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyWX\bin\LitJSON.dll
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyWX\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyWX\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyWX\bin\System.Net.Http.dll
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyWX\bin\System.Net.Http.WebRequest.dll
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyWX\bin\System.Web.Helpers.dll
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyWX\bin\System.Web.Mvc.dll
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyWX\bin\System.Web.Razor.dll
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyWX\bin\System.Web.WebPages.Deployment.dll
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyWX\bin\System.Web.WebPages.dll
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyWX\bin\System.Web.WebPages.Razor.dll
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyWX\bin\WeiXinCommon.dll
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyWX\bin\CompanyIService.dll
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyWX\bin\CompanyModel.dll
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyWX\bin\CompanyService.dll
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyWX\bin\Newtonsoft.Json.dll
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyWX\bin\DBHelper.dll
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyWX\bin\Dapper.dll
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyWX\bin\CompanyController.pdb
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyWX\bin\CompanyCore.pdb
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyWX\bin\WeiXinCommon.pdb
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyWX\bin\System.Net.Http.xml
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyWX\bin\System.Net.Http.WebRequest.xml
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyWX\bin\System.Web.Helpers.xml
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyWX\bin\System.Web.Mvc.xml
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyWX\bin\System.Web.Razor.xml
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyWX\bin\System.Web.WebPages.xml
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyWX\bin\System.Web.WebPages.Deployment.xml
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyWX\bin\System.Web.WebPages.Razor.xml
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyWX\bin\CompanyIService.pdb
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyWX\bin\CompanyModel.pdb
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyWX\bin\CompanyService.pdb
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyWX\bin\Newtonsoft.Json.xml
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyWX\bin\DBHelper.pdb
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyWX\bin\zh-Hans\System.Net.Http.resources.dll
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyWX\bin\zh-Hans\System.Net.Http.WebRequest.resources.dll
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyWX\bin\zh-Hans\System.Web.Helpers.resources.dll
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyWX\bin\zh-Hans\System.Web.Mvc.resources.dll
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyWX\bin\zh-Hans\System.Web.Razor.resources.dll
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyWX\bin\zh-Hans\System.Web.WebPages.resources.dll
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyWX\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyWX\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyWX\obj\Debug\CompanyWX.csprojResolveAssemblyReference.cache
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyWX\obj\Debug\CompanyWX.dll
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\CompanyWX\obj\Debug\CompanyWX.pdb
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\CompanyWX.dll.config
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\CompanyWX.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\CompanyWX.pdb
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\CompanyController.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\CompanyCore.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\LitJSON.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\Microsoft.Web.Infrastructure.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\System.Net.Http.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\System.Net.Http.Formatting.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\System.Net.Http.WebRequest.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\System.Web.Helpers.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\System.Web.Http.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\System.Web.Http.WebHost.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\System.Web.Mvc.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\System.Web.Razor.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\System.Web.WebPages.Deployment.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\System.Web.WebPages.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\System.Web.WebPages.Razor.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\WeiXinCommon.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\CompanyIService.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\CompanyModel.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\CompanyService.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\Newtonsoft.Json.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\DBHelper.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\Dapper.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\CompanyController.pdb
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\CompanyCore.pdb
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\WeiXinCommon.pdb
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\System.Net.Http.xml
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\System.Net.Http.Formatting.xml
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\System.Net.Http.WebRequest.xml
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\System.Web.Helpers.xml
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\System.Web.Http.xml
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\System.Web.Http.WebHost.xml
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\System.Web.Mvc.xml
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\System.Web.Razor.xml
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\System.Web.WebPages.xml
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\System.Web.WebPages.Deployment.xml
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\System.Web.WebPages.Razor.xml
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\CompanyIService.pdb
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\CompanyModel.pdb
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\CompanyService.pdb
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\Newtonsoft.Json.xml
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\DBHelper.pdb
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\zh-Hans\System.Net.Http.resources.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\zh-Hans\System.Net.Http.WebRequest.resources.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\zh-Hans\System.Web.Helpers.resources.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\zh-Hans\System.Web.Http.resources.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\zh-Hans\System.Web.Mvc.resources.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\zh-Hans\System.Web.Razor.resources.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\zh-Hans\System.Web.WebPages.resources.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\obj\Debug\CompanyWX.csprojResolveAssemblyReference.cache
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\obj\Debug\CompanyWX.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\obj\Debug\CompanyWX.pdb
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\obj\Debug\CompanyWX.csprojResolveAssemblyReference.cache
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\obj\Debug\CompanyWX.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\obj\Debug\CompanyWX.pdb
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\CompanyWX.dll.config
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\CompanyWX.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\CompanyWX.pdb
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\CompanyController.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\CompanyCore.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\LitJSON.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\Microsoft.Web.Infrastructure.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\System.Net.Http.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\System.Net.Http.Formatting.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\System.Net.Http.WebRequest.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\System.Web.Helpers.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\System.Web.Http.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\System.Web.Http.WebHost.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\System.Web.Mvc.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\System.Web.Razor.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\System.Web.WebPages.Deployment.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\System.Web.WebPages.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\System.Web.WebPages.Razor.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\WeiXinCommon.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\CompanyIService.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\CompanyModel.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\CompanyService.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\Newtonsoft.Json.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\DBHelper.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\Dapper.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\CompanyController.pdb
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\CompanyCore.pdb
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\WeiXinCommon.pdb
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\System.Net.Http.xml
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\System.Net.Http.Formatting.xml
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\System.Net.Http.WebRequest.xml
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\System.Web.Helpers.xml
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\System.Web.Http.xml
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\System.Web.Http.WebHost.xml
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\System.Web.Mvc.xml
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\System.Web.Razor.xml
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\System.Web.WebPages.xml
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\System.Web.WebPages.Deployment.xml
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\System.Web.WebPages.Razor.xml
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\CompanyIService.pdb
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\CompanyModel.pdb
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\CompanyService.pdb
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\Newtonsoft.Json.xml
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\DBHelper.pdb
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\zh-Hans\System.Net.Http.resources.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\zh-Hans\System.Net.Http.WebRequest.resources.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\zh-Hans\System.Web.Helpers.resources.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\zh-Hans\System.Web.Http.resources.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\zh-Hans\System.Web.Mvc.resources.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\zh-Hans\System.Web.Razor.resources.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\zh-Hans\System.Web.WebPages.resources.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\CompanyWX\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll

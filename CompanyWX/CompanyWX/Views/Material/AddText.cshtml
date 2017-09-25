@@ -1,0 +1,93 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Layout/Layout.cshtml";
+    var model = ViewBag.model != null ? ViewBag.model as CompanyModel.Material : null;
+}
+<link href="~/Content/css/mytab.css" rel="stylesheet">
+<link href="~/Content/css/tabtext.css" rel="stylesheet">
+<link href="/Content/css/plugins/iCheck/custom.css" rel="stylesheet">
+<link href="/Content/css/plugins/sweetalert/sweetalert.css" rel="stylesheet">
+<script src="/Content/js/plugins/iCheck/icheck.min.js"></script>
+<script src="/Content/js/plugins/sweetalert/sweetalert.min.js"></script>
+
+<div class="message_view js_material_view">
+    <div class="message_list">
+        <div class="message_bar" style="padding: 0 10px;">
+            <div class="float-right js_create"><a class=" btn mb_btn float-right js_new_video" href="/Material/Index">返回</a></div>
+            <ul class="js_toolbar message_filetype_items">
+                <li data-type="text" class="active"><a href="/Material/Index">文字</a></li>
+                <li data-type="image" class=""><a href="/Material/Pic">图片</a></li>
+                <li data-type="audio" class=""><a href="/Material/Voice" class="active">语音</a></li>
+                <li data-type="video"><a href="/Material/Video">视频</a></li>
+                <li data-type="article" class=""><a href="/Material/ImageText">图文</a></li>
+                <li data-type="file" class=""><a href="/Material/File">文件</a></li>
+              
+            </ul>
+        </div>
+
+        <div class="js_material_container message_items">
+            <div class="textdiv">
+                @{
+                    if (model == null)
+                    {
+                        <script id="editor" type="text/plain" style="width:800px;height:200px;">
+                        </script>
+                    }
+                    else
+                    {
+                        <script id="editor" type="text/plain" style="width:800px;height:200px;">
+                            @Html.Raw(model.contents)
+                        </script>
+                        <input name="id" value="@(model.id)" hidden="hidden" />
+                    }
+                }
+
+            </div>
+            <div class="message_create_footer">
+                <a class="btn btn_blue js_save">保存</a>
+                <a class="btn btn_blue js_cancel">取消</a>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="\Content\ueditor\ueditor.config.js"></script>
+<!-- 编辑器源码文件 -->
+<script type="text/javascript" src="\Content\ueditor\ueditor.all.js"></script>
+
+<script type="text/javascript">
+
+    var ue = UE.getEditor('editor', {
+        autoHeight: false,
+        toolbars: [
+             ['emotion']
+        ]
+    });
+
+    $(".js_save").click(function () {
+        //获取主键ID
+        var id = $("[name=id]").val();
+        var contents = UE.getEditor('editor').getContent();
+        if (id == null) {
+            $.post("/Material/AddText", { "contents": contents }, function (data) {
+                if (data.Result) {
+                    swal("Success!", data.Msg, "success");
+                    window.location.href = "/Material/Index";
+
+                } else {
+                    swal("Success!", data.Msg, "success");
+                }
+            });
+        } else {
+            $.post("/Material/AddText", { "contents": contents, "id": id }, function (data) {
+                if (data.Result) {
+                    swal("Success!", data.Msg, "success");
+                    window.location.href = "/Material/Index";
+
+                } else {
+                    swal("Success!", data.Msg, "success");
+                }
+            });
+        }
+
+    });
+</script>

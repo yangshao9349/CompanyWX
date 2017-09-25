@@ -1,0 +1,138 @@
+﻿.video_unit {
+    position: relative;
+    width: 340px;
+    padding: 10px 0;
+    border: 1px solid #c2c2c2;
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+    .video_unit .video_image {
+        margin: 0 10px;
+        position: relative;
+        margin-bottom: 10px;
+        display: block;
+        text-decoration: none;
+        border: 1px solid #ccc;
+        cursor: pointer;
+    }
+
+    .video_unit .video_image_wrap {
+        width: 100%;
+        overflow: hidden;
+        height: 190px;
+    }
+
+.video_sub_title {
+    padding-left: 10px;
+    position: absolute;
+    left: -1px;
+    right: -1px;
+    height: 40px;
+    bottom: -10px;
+    line-height: 40px;
+    color: #fff;
+    background-color: #000;
+    opacity: .5;
+    filter: alpha(opacity=50);
+    font-size: 16px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.video_artical {
+    display: block;
+    padding: 0 10px;
+    color: #222;
+    border-top: 1px solid #e5e5e5;
+    position: relative;
+    min-height: 99px;
+    cursor: pointer;
+}
+
+.video_artical_img {
+    position: absolute;
+    right: 10px;
+    top: 9px;
+    height: 80px;
+    width: 80px;
+}
+
+.video_artical_title {
+    padding-right: 90px;
+    padding-top: 20px;
+    font-size: 16px;
+    line-height: 20px;
+    max-height: 80px;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    word-break: break-all;
+    overflow: hidden;
+}
+
+.video_vertical {
+    vertical-align: middle;
+    display: block;
+}
+
+.tool_mask {
+    position: absolute;
+    height: 40px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000;
+    opacity: .7;
+    filter: alpha(opacity=70);
+    display: none;
+}
+
+.tool_panel {
+    position: absolute;
+    height: 40px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    text-align: center;
+    display: none;
+}
+
+    .tool_panel a {
+        margin: 12px 20px;
+    }
+
+.icon_edit_white {
+    height: 16px;
+    width: 16px;
+    background-position: -160px -65px;
+}
+
+.icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url(/Content/images/icon_main_5940308d.png);
+    background-repeat: no-repeat !important;
+}
+
+a {
+    text-decoration: none;
+    color: #4A90E2;
+}
+
+.icon_remove_white {
+    width: 16px;
+    height: 17px;
+    background-position: -160px -96px;
+}
+
+.video_items li {
+    float: left;
+}

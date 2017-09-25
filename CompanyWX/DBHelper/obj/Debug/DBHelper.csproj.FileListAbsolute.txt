@@ -1,0 +1,36 @@
+E:\淘宝\CompanyWX\DBHelper\bin\Debug\DBHelper.dll
+E:\淘宝\CompanyWX\DBHelper\bin\Debug\DBHelper.pdb
+E:\淘宝\CompanyWX\DBHelper\bin\Debug\Dapper.dll
+E:\淘宝\CompanyWX\DBHelper\obj\Debug\DBHelper.csprojResolveAssemblyReference.cache
+E:\淘宝\CompanyWX\DBHelper\obj\Debug\DBHelper.dll
+E:\淘宝\CompanyWX\DBHelper\obj\Debug\DBHelper.pdb
+E:\淘宝\c#\bs\CompanyWX\DBHelper\bin\Debug\DBHelper.dll
+E:\淘宝\c#\bs\CompanyWX\DBHelper\bin\Debug\DBHelper.pdb
+E:\淘宝\c#\bs\CompanyWX\DBHelper\bin\Debug\Dapper.dll
+E:\淘宝\c#\bs\CompanyWX\DBHelper\obj\Debug\DBHelper.csprojResolveAssemblyReference.cache
+E:\淘宝\c#\bs\CompanyWX\DBHelper\obj\Debug\DBHelper.dll
+E:\淘宝\c#\bs\CompanyWX\DBHelper\obj\Debug\DBHelper.pdb
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\DBHelper\bin\Debug\DBHelper.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\DBHelper\bin\Debug\DBHelper.pdb
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\DBHelper\bin\Debug\Dapper.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\DBHelper\obj\Debug\DBHelper.dll
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\DBHelper\obj\Debug\DBHelper.pdb
+C:\Users\Administrator\Desktop\CompanyWX\CompanyWX\DBHelper\obj\Debug\DBHelper.csprojResolveAssemblyReference.cache
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\DBHelper\bin\Debug\DBHelper.dll
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\DBHelper\bin\Debug\DBHelper.pdb
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\DBHelper\bin\Debug\Dapper.dll
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\DBHelper\obj\Debug\DBHelper.csprojResolveAssemblyReference.cache
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\DBHelper\obj\Debug\DBHelper.dll
+C:\Users\邵鹏杰\Desktop\CompanyWX (1)\CompanyWX\DBHelper\obj\Debug\DBHelper.pdb
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\DBHelper\bin\Debug\DBHelper.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\DBHelper\bin\Debug\DBHelper.pdb
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\DBHelper\bin\Debug\Dapper.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\DBHelper\obj\Debug\DBHelper.csprojResolveAssemblyReference.cache
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\DBHelper\obj\Debug\DBHelper.dll
+E:\淘宝\c#\bs\CompanyWX1.1\CompanyWX\DBHelper\obj\Debug\DBHelper.pdb
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\DBHelper\bin\Debug\DBHelper.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\DBHelper\bin\Debug\DBHelper.pdb
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\DBHelper\bin\Debug\Dapper.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\DBHelper\obj\Debug\DBHelper.csprojResolveAssemblyReference.cache
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\DBHelper\obj\Debug\DBHelper.dll
+E:\taobao\c#\bs\CompanyWX1.1\CompanyWX\DBHelper\obj\Debug\DBHelper.pdb

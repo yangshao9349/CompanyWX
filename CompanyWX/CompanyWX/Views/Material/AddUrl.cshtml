@@ -1,0 +1,518 @@
+﻿@{
+    ViewBag.Title = "AddUrl";
+    Layout = "~/Views/Layout/Layout.cshtml";
+}
+<style>
+    .mc_card_wrap .video_unit {
+        width: auto;
+        margin-right: 0;
+    }
+
+    .video_unit {
+        position: relative;
+        width: 358px;
+        padding: 10px 0;
+        border: 1px solid #c2c2c2;
+        box-shadow: 0 1px 2px rgba(0,0,0,.1);
+        margin-right: 20px;
+        margin-bottom: 20px;
+        background-color: #fff;
+    }
+
+        .video_date, .video_unit .video_title {
+            padding: 0 10px 10px;
+            word-break: break-all;
+            word-wrap: break-word;
+        }
+
+        .video_unit .video_image {
+            margin: 0 10px;
+            position: relative;
+            margin-bottom: 10px;
+            display: block;
+            text-decoration: none;
+            border: 1px solid #ccc;
+            cursor: pointer;
+        }
+
+            .safeFile_unit .image_edit_placeholder, .video_unit .video_image .image_edit_placeholder {
+                height: 190px;
+                width: 100%;
+                text-align: center;
+                background-color: #eee;
+                color: #777;
+            }
+
+                .safeFile_unit .image_edit_placeholder .placeholder_text, .video_unit .video_image .image_edit_placeholder .placeholder_text {
+                    display: inline-block;
+                    line-height: 2;
+                    vertical-align: middle;
+                }
+
+                .safeFile_unit .image_edit_placeholder .placeholder_vertical, .video_unit .video_image .image_edit_placeholder .placeholder_vertical {
+                    vertical-align: middle;
+                    display: inline-block;
+                    height: 190px;
+                }
+
+        .video_unit .video_detail {
+            padding: 0 10px;
+            color: #777;
+            word-break: break-word;
+            white-space: normal;
+        }
+
+    .video_artical_add {
+        display: block;
+        border-top: 1px solid #e5e5e5;
+        position: relative;
+        height: 80px;
+    }
+
+    .video_artical_add_button {
+        border: 1px dashed #eee;
+        position: absolute;
+        left: 10px;
+        right: 10px;
+        top: 10px;
+        bottom: 0;
+        text-align: center;
+    }
+
+        .video_artical_add_button .icon_mc_add, .video_artical_add_button .icon_message_new {
+            margin-top: 24px;
+        }
+
+    .icon_message_new {
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        background-image: url(https://res.wx.qq.com/mmocbiz/zh_CN/tmt/pc/dist/sprite/style-old-message_b375d88c.png);
+        background-position: -51px -20px;
+    }
+
+    .video_unit .video_image_wrap {
+        width: 100%;
+        overflow: hidden;
+        height: 190px;
+    }
+
+    .video_artical {
+        display: block;
+        padding: 0 10px;
+        color: #222;
+        border-top: 1px solid #e5e5e5;
+        position: relative;
+        min-height: 99px;
+        cursor: pointer;
+    }
+
+    .video_unit .video_artical.active .choose_mode_style, .video_unit .video_image.active .choose_mode_style {
+        border: 2px solid #4a90e2;
+        opacity: 1;
+        filter: alpha(opacity=100);
+    }
+
+    .video_unit .video_artical .choose_mode_style {
+        top: -1px;
+        bottom: 0;
+        left: -1px;
+        right: -1px;
+    }
+
+    .video_unit .choose_mode_style {
+        position: absolute;
+        left: -12px;
+        top: -11px;
+        bottom: -11px;
+        right: -12px;
+        border: 2px solid transparent;
+        opacity: 1;
+        filter: alpha(opacity=100);
+    }
+
+    .video_unit .video_artical .image_edit_placeholder {
+        position: absolute;
+        right: 10px;
+        top: 9px;
+        height: 80px;
+        width: 80px;
+        background-color: #eee;
+    }
+
+    .video_artical_title {
+        padding-right: 90px;
+        padding-top: 20px;
+        font-size: 16px;
+        line-height: 20px;
+        max-height: 80px;
+        display: inline-block;
+        vertical-align: middle;
+        -webkit-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        box-sizing: border-box;
+        word-break: break-all;
+        overflow: hidden;
+    }
+
+    .video_vertical {
+        vertical-align: middle;
+        display: block;
+    }
+
+    .video_artical_option {
+        opacity: 0;
+        -webkit-transition: all .1s ease-in;
+        -moz-transition: all .1s ease-in;
+        transition: all .1s ease-in;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 40px;
+        filter: alpha(opacity=40)\0;
+        background-color: rgba(34,37,40,.4);
+        background-color: #222528\0;
+        z-index: 2;
+    }
+
+    .video_artical {
+        display: block;
+        padding: 0 10px;
+        color: #222;
+        border-top: 1px solid #e5e5e5;
+        position: relative;
+        min-height: 99px;
+        cursor: pointer;
+    }
+
+    .video_artical_option .icon_message_moveUp {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+
+    .icon_message_moveUp {
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        background-image: url(https://res.wx.qq.com/mmocbiz/zh_CN/tmt/pc/dist/sprite/style-old-message_b375d88c.png);
+        background-position: 0 -30px;
+    }
+
+    .icon_message_delete {
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        background-image: url(https://res.wx.qq.com/mmocbiz/zh_CN/tmt/pc/dist/sprite/style-old-message_b375d88c.png);
+        background-position: -51px 0;
+    }
+
+    .video_artical_option .icon_message_delete {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+    .video_sub_title {
+        padding-left: 10px;
+        position: absolute;
+        left: -1px;
+        right: -1px;
+        height: 40px;
+        bottom: -1px;
+        line-height: 40px;
+        color: #fff;
+        background-color: #000;
+        opacity: .5;
+        filter: alpha(opacity=50);
+        font-size: 16px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        margin: 0 0 0px;
+    }
+.video_artical_img {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    border: none;
+}
+</style>
+<link href="~/Content/css/mytab.css" rel="stylesheet">
+<link href="~/Content/css/tabtext.css" rel="stylesheet">
+
+<link href="/Content/css/plugins/iCheck/custom.css" rel="stylesheet">
+<link href="/Content/css/plugins/sweetalert/sweetalert.css" rel="stylesheet">
+<script src="/Content/js/plugins/iCheck/icheck.min.js"></script>
+<script src="/Content/js/plugins/sweetalert/sweetalert.min.js"></script>
+<link rel="stylesheet" href="~/Content/FileUpload/css/jquery.fileupload.css" />
+
+<div class="message_view js_material_view">
+    <div class="message_list">
+        <div class="message_bar" style="padding: 0 10px;">
+            <div class="float-right js_create"><a class=" btn mb_btn float-right js_new_video" href="/Material/Url">返回</a></div>
+            <ul class="js_toolbar message_filetype_items">
+                <li data-type="text" class="active"><a href="/Material/Index">文字</a></li>
+                <li data-type="image" class=""><a href="/Material/Pic">图片</a></li>
+                <li data-type="audio" class=""><a href="/Material/Voice" class="active">语音</a></li>
+                <li data-type="video"><a href="/Material/Video">视频</a></li>
+                <li data-type="article" class=""><a href="/Material/ImageText">图文</a></li>
+                <li data-type="file" class=""><a href="/Material/File">文件</a></li>
+                <li data-type="news" class=""><a href="/Material/Url">外链</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="col-lg-7">
+    <div class="ibox float-e-margins">
+        <div class="ibox-title">
+            <h5>外链添加</h5>
+
+        </div>
+        <div class="ibox-content">
+            <form action="/index.php/Home/Admin/addvideos" id="myform" method="post" class="form-horizontal" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">标题</label>
+                    <div class="col-sm-10"><input type="text" id="title" name="title" class="form-control" value="" /></div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">封面图片</label>
+                    <div class="col-sm-10">
+                        <span class="btn btn-success fileinput-button">
+                            <i class="glyphicon glyphicon-plus"></i>
+                            <span>添加素材</span>
+
+                            <input id="fileupload" type="file" name="imgFile" multiple>
+                        </span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">摘要</label>
+                    <div class="col-sm-10">
+                        <input type="text" id="summary" name="description" class="mod-send-message-input-large mod-send-message-user-input" placeholder="" style="width:400px;height: 100px;padding-bottom:20px;">
+
+
+
+
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">外链</label>
+                    <div class="col-sm-10">
+
+
+                        <input type="text" name="" id="url" class="form-control" value="" />
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <div class="col-sm-4 col-sm-offset-2">
+
+                        <button class="btn btn-primary" type="button" onclick="uptext();">保存</button>
+                    </div>
+                </div>
+                <input name="content" type="hidden" id="content">
+            </form>
+        </div>
+    </div>
+</div>
+<div class="col-lg-5">
+    <div class="ibox float-e-margins">
+        <div class="ibox-content">
+            <div class="video_unit">
+                <div>
+                    <div class="video_image js_msg_item  active" >
+                        <div class="choose_mode_style"></div>
+                        <div class="video_image_wrap" data-type="img">
+
+                        </div>
+
+
+                        <p class="video_sub_title lbl_title"></p>
+
+
+                    </div>
+
+
+                </div>
+                <div class="main">
+
+                </div>
+
+
+
+                <span class="video_artical_add js_msg_add" style="z-index:999">
+                    <span class="video_artical_add_button">
+                        <span class="icon_message_new ui-mt-large"></span>
+                    </span>
+                </span>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="~/Content/FileUpload/js/vendor/jquery.ui.widget.js"></script>
+<script src="~/Content/FileUpload/js/jquery.iframe-transport.js"></script>
+<script src="~/Content/FileUpload/js/jquery.fileupload.js"></script>
+<script>
+
+    $(function () {
+        'use strict';
+        var url = "/Ashx/upload.ashx?p=pic";
+        $('#fileupload').fileupload({
+            autoUpload: true,//是否自动上传
+            url: url,
+            dataType: 'json',
+            done: function (e, data) {
+                // message
+                console.log(data.result);
+                if (data.result.error == 1) {
+                    swal("上传出错了!", data.result.message, "success");
+                } else {
+                    var url = data.result.url;
+                    setimgurl(url);
+                    // $(".video_image_wrap").html("<img src='" + url + "'/>");
+
+
+                }
+            },
+            progressall: function (e, data) {
+                var progress = parseInt(data.loaded / data.total * 100, 10);
+                $('#progress .progress-bar').css(
+                    'width',
+                    progress + '%'
+                );
+            }
+        }).prop('disabled', !$.support.fileInput)
+            .parent().addClass($.support.fileInput ? undefined : 'disabled');
+
+
+
+        $(".icon_message_new").click(function () {
+            clearactive();
+            var title = $("#title").val();
+            var url = $("#url").val();
+            var html = '<div class="video_artical js_msg_item active " index="1">';
+            html += '<div class="choose_mode_style"></div>';
+            html += '<p class="image_edit_placeholder"></p>';
+            html += '<p class="js_article_title video_artical_title lbl_title">' + title + '</p>';
+            html += '<span class="video_vertical"></span>';
+            html += '<span class="video_artical_option">';
+            html += '<span class="icon_message_delete js_msg_delete" title="删除"  index="1" style="z-index:999"></span>';
+            html += ' <input type="hidden" value="' + url + '" class="url" />';
+            html += '</span></div>';
+            $(".main").append(html);
+            $(".icon_message_delete").click(function () {
+                var obj = $(this).parent().parent().remove();
+            });
+            $(".video_artical").click(function () {
+                var html = $(this).find(".lbl_title").html();
+                var urlstr = $(this).find(".url").val();
+              
+                $("#title").val(html);
+                
+                $("#url").val(urlstr);
+
+                clearactive();
+                $(this).addClass("active");
+            });
+            $(".video_artical").mouseover(function () {
+                var obj = $(this);
+                obj.find(".video_artical_option").css("opacity", "1");
+            });
+            $(".video_artical").mouseout(function () {
+                var obj = $(this);
+                obj.find(".video_artical_option").css("opacity", "0");
+            });
+
+        });
+
+
+
+        $('#title').bind('input propertychange', function () { settext(); });
+        $('#url').bind('input propertychange', function () { seturl(); });
+        $(".video_image").click(function () {
+            var html = $(this).find(".video_sub_title").html();
+            $("#title").val(html);
+            clearactive();
+            $(this).addClass("active");
+        });
+
+
+    });
+    function clearactive() {
+        $(".video_artical").removeClass("active");
+        $(".video_image").removeClass("active");
+    }
+    function settext() {
+        var title = $("#title").val();
+        $(".active").find(".lbl_title").html(title);
+    }
+    function seturl() {
+        var url = $("#url").val();
+        $(".active").find(".url").val(url);
+    }
+    function setimgurl(url) {
+
+        var obj = $(".active").find(".video_image_wrap").data("type");
+
+        if (obj == "img") {
+
+            $(".video_image_wrap").html("<img src='" + url + "'/>");
+            $(".video_image_wrap").css("display", "block");
+        } else {
+            $(".active").find(".image_edit_placeholder").html("<img class='video_artical_img' src='" + url + "'/>");
+        }
+
+    }
+
+    function uptext() {
+        var title = $("#title").val();
+        var summary = $("#summary").val();
+        var topimg = $(".video_image_wrap").find("img").attr("src");
+        var url = $("#url").val();
+        var list = getcontents();
+        if (typeof (topimg) == "undefined") {
+            swal("Success!", "请上传图片", "success");
+
+        } else {
+            $.post("/Material/AddUrl", {
+                "title": title, "list": list, "topimg": topimg
+                , "url": url, "summary": summary
+            }, function (data) {
+                if (data.Result) {
+                    swal("Success!", data.Msg, "success");
+                    window.location.href = "/Material/Url";
+
+                } else {
+                    swal("Success!", data.Msg, "success");
+                }
+           });
+        }
+       
+
+    }
+    function getcontents() {
+        var content = "";
+        $(".main > .js_msg_item").each(function (i) {
+            var title = $(this).find(".lbl_title").html();
+            var img = $(this).find("img").attr("src");
+            var url = $(this).find(".url").val();
+            if (typeof (img) == "undefined") {
+                img = "";
+            }
+            t = i == $(".main >.js_msg_item").length - 1 ? '' : ','
+            content += "{'title':'" + title + "','img':'" + img + "','url':'" + url + "'}" + t;
+
+        });
+        if (content != "") {
+            content = "[" + content + "]";
+        }
+        return content;
+    }
+</script>

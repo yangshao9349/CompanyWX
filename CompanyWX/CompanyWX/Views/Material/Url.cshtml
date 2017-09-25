@@ -1,0 +1,249 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Layout/Layout.cshtml";
+    var list = ViewBag.list as List<CompanyModel.Material>;
+}
+<link href="~/Content/css/mytab.css" rel="stylesheet">
+<link href="~/Content/css/tabtext.css" rel="stylesheet">
+<link href="/Content/css/plugins/iCheck/custom.css" rel="stylesheet">
+<link href="/Content/css/plugins/sweetalert/sweetalert.css" rel="stylesheet">
+<script src="/Content/js/plugins/iCheck/icheck.min.js"></script>
+<script src="/Content/js/plugins/sweetalert/sweetalert.min.js"></script>
+<style>
+    .video_unit {
+        position: relative;
+        width: 340px;
+        padding: 10px 0;
+        border: 1px solid #c2c2c2;
+        box-shadow: 0 1px 2px rgba(0,0,0,.1);
+        margin-right: 20px;
+        margin-bottom: 20px;
+        background-color: #fff;
+    }
+
+        .video_unit .video_image {
+            margin: 0 10px;
+            position: relative;
+            margin-bottom: 10px;
+            display: block;
+            text-decoration: none;
+            border: 1px solid #ccc;
+            cursor: pointer;
+        }
+
+        .video_unit .video_image_wrap {
+            width: 100%;
+            overflow: hidden;
+            height: 190px;
+        }
+
+    .video_sub_title {
+        padding-left: 10px;
+        position: absolute;
+        left: -1px;
+        right: -1px;
+        height: 40px;
+        bottom: -10px;
+        line-height: 40px;
+        color: #fff;
+        background-color: #000;
+        opacity: .5;
+        filter: alpha(opacity=50);
+        font-size: 16px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    .video_artical {
+        display: block;
+        padding: 0 10px;
+        color: #222;
+        border-top: 1px solid #e5e5e5;
+        position: relative;
+        min-height: 99px;
+        cursor: pointer;
+    }
+
+    .video_artical_img {
+        position: absolute;
+        right: 10px;
+        top: 9px;
+        height: 80px;
+        width: 80px;
+    }
+
+    .video_artical_title {
+        padding-right: 90px;
+        padding-top: 20px;
+        font-size: 16px;
+        line-height: 20px;
+        max-height: 80px;
+        display: inline-block;
+        vertical-align: middle;
+        -webkit-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        box-sizing: border-box;
+        word-break: break-all;
+        overflow: hidden;
+    }
+
+    .video_vertical {
+        vertical-align: middle;
+        display: block;
+    }
+
+    .tool_mask {
+        position: absolute;
+        height: 40px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #000;
+        opacity: .7;
+        filter: alpha(opacity=70);
+        display: none;
+    }
+
+    .tool_panel {
+        position: absolute;
+        height: 40px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 2;
+        text-align: center;
+        display: none;
+    }
+
+        .tool_panel a {
+            margin: 12px 20px;
+        }
+
+    .icon_edit_white {
+        height: 16px;
+        width: 16px;
+        background-position: -160px -65px;
+    }
+
+    .icon {
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        background-image: url(/Content/images/icon_main_5940308d.png);
+        background-repeat: no-repeat !important;
+    }
+
+    a {
+        text-decoration: none;
+        color: #4A90E2;
+    }
+
+    .icon_remove_white {
+        width: 16px;
+        height: 17px;
+        background-position: -160px -96px;
+    }
+    .video_items li {
+    float: left;
+}
+</style>
+<div class="message_view js_material_view">
+    <div class="message_list">
+        <div class="message_bar" style="padding: 0 10px;">
+            <div class="float-right js_create"><a class=" btn mb_btn float-right js_new_video" href="/Material/AddUrl">新建素材</a></div>
+            <ul class="js_toolbar message_filetype_items">
+                <li data-type="text"><a href="/Material/Index">文字</a></li>
+                <li data-type="image" class=""><a href="/Material/Pic">图片</a></li>
+                <li data-type="audio" class=""><a href="/Material/Voice" class="active">语音</a></li>
+                <li data-type="video"><a href="/Material/Video">视频</a></li>
+                <li data-type="article" class=""><a href="/Material/ImageText">图文</a></li>
+                <li data-type="file" class=""><a href="/Material/File">文件</a></li>
+                <li data-type="news" class="active"><a href="/Material/Url">外链</a></li>
+            </ul>
+        </div>
+
+        <div class="js_material_container message_items">
+            <div class="message_items_material_video video_items">
+                <ul class="js_items" style="position: relative; height: 344px;">
+                    @{
+
+                        foreach (var item in list)
+                        {
+                            <li class="tile" >
+                                <div class="video_unit">
+                                    <a class="video_image" href="@item.url" target="_blank">
+                                        <div class="video_image_wrap">
+                                            <img src="@item.topimg" width="100%"><span class="image_vertical"></span>
+                                        </div>
+
+                                        <p class="video_sub_title">@item.title</p>
+                                    </a>
+                                 @{
+                            if (item.mylist != null)
+                            {
+                                foreach (var obj in item.mylist)
+                                {
+                                    <a class="video_artical" href="@obj.url" target="_blank">
+
+                                        <img src="@obj.img" class="video_artical_img">
+
+                                        <p class="video_artical_title">@obj.title</p>
+                                        <span class="video_vertical"></span>
+                                    </a>
+                                }
+                            }
+                                }
+                                   
+                                  
+                                    <div style="text-align:right">
+
+                                        <a style="margin-left:10px;float:left">编辑</a>
+                                        <a style="margin-right:10px;" data-id="@item.id" class="delete">删除</a>
+                                    </div>
+
+
+
+
+
+
+                                </div>
+                            </li>
+
+
+                        }
+                    }
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+<script>
+    $(function () {
+
+        $(".delete").click(function () {
+            var id = $(this).data("id");
+            swal({
+                title: "确定要删除吗?",
+                text: "",
+                type: "warning",
+                showCancelButton: true,
+                confirmButtonColor: "#DD6B55",
+                confirmButtonText: "是",
+                closeOnConfirm: false
+            }, function () {
+              
+                $.post("/Material/DelUrl", { "id": id }, function (data) {
+                    if (data.Result) {
+                        swal("Deleted!", "已删除", "success");
+                        window.location.reload();//刷新当前页面.
+                    } else {
+                        swal("Deleted!", "系统异常", "success");
+                    }
+                });
+
+            });
+        });
+    });
+</script>
